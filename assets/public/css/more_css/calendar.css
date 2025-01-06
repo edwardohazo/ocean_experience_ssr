@@ -1,0 +1,261 @@
+:root {
+    --black: #000;
+    --white: #fff;
+    --purpure: rgb(146, 198, 250);
+    --blue: rgb(0, 17, 83);
+    --header: #0C1335;
+    --background-main: rgb(84, 82, 82);
+    --buttons-color: #FF684D;
+    --green: rgb(72, 250, 102);
+    --lightBlue: #02BBFC;
+}
+/* Reset some default styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Style the header */
+  h1 {
+    text-align: center;
+    background-color: var(--blue);
+    color: var(--purpure);
+    padding: 10px;
+    margin: 0;
+  }
+
+  .body__main-div--two-h4--one {
+    text-align: center;
+  }
+
+  /* Style main */
+  .body__main--servicePage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 15%;
+  }
+
+  .body__main--servicePage > :nth-child(1) {
+    width: 50%;
+  }
+
+  .body__main--servicePage > :nth-child(2) {
+    width: 40%;
+  }
+
+  .body__main--servicePage > :nth-child(3) {
+    width: 100%;
+  }
+  
+  /* Style the calendar container */
+  .calendar {
+    text-align: center;
+    margin: 20px auto;
+    border-radius: 5px;
+    overflow: hidden;
+    max-width: 400px;
+  }
+  
+  /* Style the calendar table */
+  table {
+    padding: 5%;
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--white);
+    border-radius: 4% 4% 0 0;
+  }
+
+  tbody > :nth-child(1) {
+    background-color: var(--header);
+  }
+
+  th  {
+    text-align: center;
+    color: var(--white);
+  }
+  
+  /* Style calendar cells */
+  td {
+    position: relative;
+    width: 14.2857%; /* 7 cells in a row */
+    border: 1px solid #ccc;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  /* Style available dates */
+  .available {
+    background-color: var(--lightBlue);
+    color: var(--white); 
+  }
+  
+  /* Style reserved dates */
+
+  /* .all {
+    background-color: var(--lightBlue);
+    color: var(--white);
+  }
+  .many {
+      background-color: #87a5ff;
+      color: #fff;
+  } */
+  /* .some {
+      background-color: #87a5ff;
+      color: #fff;
+  } */
+  /* .few {
+      background-color: #ff659f;
+      color: #fff;
+  } */
+  .reserved {
+    background-color: #ff684d;
+    color: #fff;
+  }
+  /* .half-morning-day {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 50%;
+  }
+  .half-afternoon-day {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+  } */
+  .half-morning-day,
+  .half-afternoon-day {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+  }
+
+  .half-morning-day {
+    top: 0;
+    left: 0;
+    clip-path: polygon(0 0, 0 100%, 100% 0);
+  }
+
+  .half-afternoon-day {
+    top: 0;
+    right: 0;
+    clip-path: polygon(100% 0, 100% 100%, 0 100%);
+  }
+
+  .body__main-div--two-div--two {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .body__main-div--two-div--two-div--one,
+  .body__main-div--two-div--two-div--two,
+  .body__main-div--two-div--two-div--three,
+  .body__main-div--two-div--two-div--four {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 40%;
+  }
+
+  .body__main-div--two-div--two-div--one-img--one,
+  .body__main-div--two-div--two-div--two-img--one,
+  .body__main-div--two-div--two-div--three-img--one,
+  .body__main-div--two-div--two-div--four-img--one {
+    width: 32px;
+    height: 24px;
+    opacity: 1; 
+  }
+  
+  /* Style the pagination buttons */
+  .pagination {
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: 20px auto;
+  }
+  
+  /* Style for the pagination buttons */
+  button {
+    padding: 10px 20px;
+    cursor: pointer;
+    color: var(--white);
+  }
+  
+  button:hover {
+    background-color: var(--purpure);
+    color: var();
+  }
+
+  .body__main-div-div-button {
+    width: 15vw;
+    text-align: center;
+    background-color: var(--white);
+    border: 2px solid var(--header);
+    color: var(--header);
+  }
+
+  .body__main-div--two-div--three-button--one::before {
+    content: '<';
+    color: var(--buttons-color);
+    margin-right: 10px;
+  }
+
+  .body__main-div--two-div--three-button--two::after {
+    content: '>';
+    color: var(--buttons-color);
+    margin-left: 10px;
+  }
+
+  /* Movile Landscape Rules */
+@media only screen and  (max-width: 1000px) {
+  /* All Resolutions General Rules */
+  /* General Styles | Unspecific Selectors */
+  /* General Styles Combined | Unspecific Selectors */
+  /* General Styles Combined | Specific Selectors */
+      /* Position */
+  
+      
+      /* Size */
+  
+      
+      /* Animations */
+  
+      
+      /* Colors and Fonts */
+  
+      
+  /* Specific Selectors */
+      
+  /* Above Header */
+      
+  /* header */
+  /* Main */
+  .body__main--servicePage {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+  }
+  .body__main--servicePage > :nth-child(1) {
+    padding: 0;
+  }
+  .body__main--servicePage > :nth-child(n) {
+    width: 100%;
+  }
+  .body__main-div--two-h1---one {
+    background-color: #fff;
+    color: #000;
+  }
+  .body__main-div-div-button {
+    width: 30vw;
+  }
+  .body__main-div--two-div--two p {
+    font-size: 10px;
+  }
+  /* Footer */
+  }
+  

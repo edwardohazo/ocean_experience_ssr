@@ -1,0 +1,2096 @@
+{
+    "en": {
+      "index": {
+        "cssPath": "../assets/public/css/styles.css",
+        "wavesCssPath": "../assets/public/css/waves.css",
+        "fontAwesomePath": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+        "title": "Ocean Experience",
+        "pageTitle": "Contact",
+        "logoPath": "../assets/public/img/logo-ocean-experience.svg",
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "mainSection": {
+          "title": "Ocean Experience",
+          "subtitle": "Aquatic Adventure Enterprise",
+          "contactButton": "Contact Us"
+        },
+        "waves": [
+          { "class": "body__main-div--one-div--one body__main-div-div wave-acceso-2" },
+          { "class": "body__main-div--one-div--two body__main-div-div wave-acceso-0" },
+          { "class": "body__main-div--one-div--three body__main-div-div wave-acceso-1" }
+        ],
+        "cards": [
+          {
+            "imagePath": "../assets/public/img/boat_2.png",
+            "imageAlt": "Card Image 1",
+            "content": "Our experienced and knowledgeable crew will cater to your every need, ensuring a seamless and memorable journey. Whether you desire a romantic sunset cruise, an exciting snorkeling expedition.",
+            "link": "./boat",
+            "buttonText": "Learn more"
+          },
+          {
+            "imagePath": "../assets/public/img/diving_2.png",
+            "imageAlt": "Card Image 2",
+            "content": "Embark on an extraordinary diving expedition with our premium diving trip service. Discover the mesmerizing world beneath the waves as you explore vibrant coral reefs, ancient shipwrecks, and a kaleidoscope of marine life.",
+            "link": "./diving",
+            "buttonText": "Learn more"
+          },
+          {
+            "imagePath": "../assets/public/img/snorkel_2.png",
+            "imageAlt": "Card Image 3",
+            "content": "Experience the ultimate in luxury and relaxation with our private boat trip service. Set sail on your own customized aquatic adventure, where you and your group can bask in the beauty of serene waters, pristine coastlines, and secluded coves.",
+            "link": "./snorkel",
+            "buttonText": "Learn more"
+          }
+        ],
+        "aboutImages": [
+          "../assets/public/img/galeria1.png",
+          "../assets/public/img/galeria2.png",
+          "../assets/public/img/galeria3.png",
+          "../assets/public/img/galeria4.png",
+          "../assets/public/img/galeria5.png",
+          "../assets/public/img/galeria1.png"
+        ],
+        "aboutSection": {
+          "title": "Welcome to Ocean Experience",
+          "description1": "We are thrilled to welcome you to Ocean Experience, your ultimate destination for all-inclusive aquatic adventures.",
+          "description2": "Our dedicated team of passionate experts and skilled crew members are committed to providing you with the highest quality experiences.",
+          "description3": "We tailor our aquatic adventures to cater to your specific interests, skill level, and desire for exploration.",
+          "description4": "Ocean Experience is not just a diving and snorkeling company; we are your gateway to the astonishing underwater and coastal wonders.",
+          "description5": "We understand that every adventurer is unique, and that's why we have the perfect adventure waiting for you."
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "footerLinks": {
+          "social": [
+            { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+            { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+            { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+          ]
+        },
+        "footerInfo": {
+          "text": "Contact us via email or follow us on social media for updates.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPath": "../assets/src/scripts/script.js",
+        "burgerMenuScript": "../assets/src/scripts/burguerMenu.js",
+        "gotoScript": "../assets/src/utils/goto.js"
+      },
+      "diving": {
+        "title": "Ocean Experience | Diving",
+        "lang": "en",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "divingSection": {
+          "title": "Diving Adventures",
+          "subtitle": "Explore the Wonders Beneath the Waves",
+          "contactButton": "Contact Us",
+          "contactLink": "#"
+        },
+        "detailsSection": {
+          "title": "Dive Into the Extraordinary",
+          "description": "Join us for premium diving trips that offer a seamless, unforgettable journey to uncover the mysteries of the deep sea.",
+          "features": [
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Expert Guides",
+              "title": "1. Expert Guides and Instructors",
+              "description": "Our guides enrich your experience with insights about marine life and ecosystems."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Tailored Experiences",
+              "title": "2. Tailored Experiences",
+              "description": "We customize trips to match your preferences for a unique diving adventure."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Sunset Dives",
+              "title": "3. Tranquil Sunset Dives",
+              "description": "Enjoy romantic sunset dives with breathtaking views and serene waters."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Underwater Expeditions",
+              "title": "4. Thrilling Underwater Expeditions",
+              "description": "Explore diverse marine life and captivating underwater spots."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "High-Quality Gear",
+              "title": "5. High-Quality Diving Gear",
+              "description": "We provide top-notch equipment to ensure your safety and comfort."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Safety",
+              "title": "6. Safety First",
+              "description": "Our crew prioritizes safety with extensive training and emergency readiness."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Photography",
+              "title": "7. Capture Unforgettable Moments",
+              "description": "Bring your camera to capture the mesmerizing underwater world."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Environmental Conservation",
+              "title": "8. Environmental Conservation",
+              "description": "We practice responsible diving to preserve the delicate marine ecosystem."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contact us via email or follow us on social media for updates.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }
+      },
+      "snorkel": {
+        "title": "Ocean Experience | Snorkeling",
+        "lang": "en",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "snorkelSection": {
+          "title": "Snorkeling Adventures",
+          "subtitle": "Discover the Vibrant Marine World",
+          "contactButton": "Contact Us",
+          "contactLink": "#"
+        },
+        "detailsSection": {
+          "title": "Dive Into the Snorkeling Experience",
+          "description": "Embark on an unforgettable snorkeling journey where you'll encounter colorful coral reefs and diverse marine life.",
+          "features": [
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Expert Guides",
+              "title": "1. Expert Guides and Instructors",
+              "description": "Our guides provide fascinating insights into marine life, making your snorkeling experience enriching."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Tailored Experiences",
+              "title": "2. Customizable Snorkeling Trips",
+              "description": "We tailor each trip to your preferences, ensuring a perfect snorkeling adventure for you."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Underwater Exploration",
+              "title": "3. Stunning Underwater Views",
+              "description": "Explore vibrant coral reefs and swim with exotic fish in crystal-clear waters."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Relaxed Environment",
+              "title": "4. Relaxed and Calm Waters",
+              "description": "Our snorkeling trips take you to peaceful spots, perfect for a calming and safe aquatic experience."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "High-Quality Gear",
+              "title": "5. Premium Snorkeling Gear",
+              "description": "We provide top-quality equipment for a comfortable and safe snorkeling experience."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Safety First",
+              "title": "6. Safety First",
+              "description": "Your safety is our priority with fully trained guides and careful supervision."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Photography",
+              "title": "7. Capture Your Moments",
+              "description": "Bring your camera to capture the beautiful underwater world and share your memories."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Environmental Conservation",
+              "title": "8. Eco-Friendly Practices",
+              "description": "We follow environmentally conscious practices to protect the fragile marine ecosystem."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contact us via email or follow us on social media for updates.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }
+      },   
+      "boat": {
+        "title": "Ocean Experience | Boat Trip",
+        "logo": {
+          "src": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navLinks": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "mainSection": {
+          "title": "Boat Trip Adventures",
+          "subtitle": "Set Sail to Unforgettable Views",
+          "cta": { "href": "#", "text": "Contact Us" }
+        },
+        "details": {
+          "title": "Embark on an Unforgettable Maritime Journey",
+          "description": "Experience the wonders of the open sea with our exceptional boat trips. Let us make your voyage seamless and unforgettable.",
+          "features": [
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Expert Captain" },
+              "title": "1. Expert Captain and Crew",
+              "description": "Knowledgeable in navigation and safety, our crew provides enriching insights and ensures your journey is smooth and enjoyable."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Custom Experiences" },
+              "title": "2. Customizable Experiences",
+              "description": "From serene escapes to special occasions, we tailor trips to meet your desires for the perfect maritime adventure."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Coastal Cruises" },
+              "title": "3. Scenic Coastal Cruises",
+              "description": "Enjoy breathtaking views of the shorelines as you relax with your favorite beverages in a tranquil setting."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Nautical Adventures" },
+              "title": "4. Exciting Nautical Adventures",
+              "description": "Explore hidden coves and islands on thrilling journeys guided by our experienced crew."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Comfortable Boat" },
+              "title": "5. Comfortable Vessel",
+              "description": "Sail in comfort on our well-maintained boat, equipped with all the amenities for a safe and enjoyable trip."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Safety First" },
+              "title": "6. Safety First",
+              "description": "Your safety is our priority, with a trained crew ready to assist and ensure a secure voyage."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Memorable Moments" },
+              "title": "7. Capture Memorable Moments",
+              "description": "Bring your camera to capture stunning scenes, and let our crew help you create memories to cherish forever."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Environmental Stewardship" },
+              "title": "8. Environmental Stewardship",
+              "description": "Our boat trips emphasize eco-friendly practices, fostering respect and conservation of the marine environment."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        }
+      },
+      "contact": {
+        "pageTitle": "Ocean Experience | Contact",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "logoImg": "../assets/public/img/logo-ocean-experience.svg",
+        "logoAlt": "Ocean Experience Logo",
+        "navLinks": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "hubspotForm": {
+          "src": "//js.hsforms.net/forms/embed/v2.js",
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          {
+            "href": "https://www.instagram.com/eduardo.hazo/",
+            "iconClass": "footer__social-icon fab fa-instagram-square"
+          },
+          {
+            "href": "https://www.linkedin.com/in/eduardogonzalezjasso/",
+            "iconClass": "footer__social-icon fab fa-linkedin"
+          },
+          {
+            "href": "mailto:your-email@example.com",
+            "iconClass": "footer__social-icon fas fa-envelope"
+          }
+        ],
+        "footerInfo": "Contact us via email or follow us on social media for updates.",
+        "footerCopyright": "2024 Ocean Experience. All rights reserved.",
+        "scripts": {
+          "script": "../src/scripts/script.js",
+          "burgerMenu": "../src/scripts/burguerMenu.js",
+          "goto": "./utils/goto.js"
+        }
+      },
+      "book": {
+        "page": {
+          "title": "Ocean Experience | Boat Trip"
+        },
+        "styles": {
+          "main": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "book": "../assets/public/css/book.css",
+          "reservations": "../assets/public/css/more_css/reservations.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "logo": {
+          "src": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navigation": [
+          { "href": "./index", "label": "Home" },
+          { "href": "./diving", "label": "Diving" },
+          { "href": "./snorkel", "label": "Snorkel" },
+          { "href": "./boat", "label": "Boat trip" },
+          { "href": "./contact", "label": "Contact" }
+        ],
+        "main": {
+          "heading": "Booking Calendar",
+          "subheading": "Book Now!"
+        },
+        "bookingCalendar": {
+          "title": "Booking Calendar",
+          "currentMonth": "January 2024",
+          "days": [
+            {
+              "class": "one",
+              "imgClass": "one-img--one",
+              "imgSrc": "../assets/public/img/allfreeshift.svg",
+              "textClass": "one-div--one",
+              "text": "Available day"
+            },
+            {
+              "class": "two",
+              "imgClass": "two-img--one",
+              "imgSrc": "../assets/public/img/midfreeshift.svg",
+              "textClass": "two-div--one",
+              "text": "Half available day"
+            },
+            {
+              "class": "three",
+              "imgClass": "three-img--one",
+              "imgSrc": "../assets/public/img/allfullshift.svg",
+              "textClass": "three-div--one",
+              "text": "Full day"
+            },
+            {
+              "class": "four",
+              "imgClass": "four-img--one",
+              "imgSrc": "../assets/public/img/midfullshift.svg",
+              "textClass": "three-div--one",
+              "text": "Half full day"
+            }
+          ],
+          "prevMonthText": "Previous Month",
+          "nextMonthText": "Next Month"
+        },
+        "bookingForm": {
+          "heading": "Book Now!",
+          "fields": {
+            "username": {
+              "label": "Username"
+            },
+            "service": {
+              "label": "Service"
+            },
+            "price": {
+              "label": "Price"
+            },
+            "participants": {
+              "label": "Number of Participants"
+            }
+          },
+          "services": [
+            {
+              "value": "65403ead6f41b178fd0dcb63",
+              "label": "Snorkel Trip"
+            },
+            {
+              "value": "65404661c833a46a8812ef19",
+              "label": "Diving Trip"
+            },
+            {
+              "value": "65404a173d3fe96835c4646b",
+              "label": "Boat Trip"
+            }
+          ],
+          "participantOptions": [
+            { "value": "1", "label": "1" },
+            { "value": "2", "label": "2" },
+            { "value": "3", "label": "3" },
+            { "value": "4", "label": "4" },
+            { "value": "5", "label": "5" },
+            { "value": "6", "label": "6" },
+            { "value": "7", "label": "7" },
+            { "value": "8", "label": "8" },
+            { "value": "9", "label": "9" },
+            { "value": "10", "label": "10" }
+          ],
+          "totalText": "Total: $0.00", 
+          "submitText": "Submit",
+          "errorMessage": "You have to select a day of the month"
+        },
+        "overlays": {
+          "loading": "Loading...",
+          "message": "Reservation successfully sent!"
+        },
+        "socialLinks": [
+          {
+            "href": "https://www.instagram.com/eduardo.hazo/",
+            "iconClass": "footer__social-icon fab fa-instagram-square"
+          },
+          {
+            "href": "https://www.linkedin.com/in/eduardogonzalezjasso/",
+            "iconClass": "footer__social-icon fab fa-linkedin"
+          },
+          {
+            "href": "mailto:your-email@example.com",
+            "iconClass": "footer__social-icon fas fa-envelope"
+          }
+        ],
+        "footerInfo": "Contact us via email or follow us on social media for updates.",
+        "footerCopyright": "2024 Ocean Experience. All rights reserved.",
+        "scripts": {
+          "main": "../src/scripts/script.js",
+          "burgerMenu": "../src/scripts/burguerMenu.js",
+          "goto": "../src/utils/goto.js",
+          "config": "../src/utils/config.js",
+          "utils": "../src/utils/utils.js",
+          "hidde": "../src/helpers/hidde.js",
+          "calendar": "../src/helpers/calendar.mjs",
+          "bookingForm": "../src/helpers/bookingForm.js"
+        }
+      },
+      "day": {
+        "css": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+          "flowbite": "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css",
+          "book": "../assets/public/css/book.css",
+          "day": "../assets/public/css/more_css/day.css",
+          "navResponsive": "../assets/public/css/more_css/navResponsive.css",
+          "dayCalendar": "../assets/public/css/more_css/day.css"
+        },
+        "page": {
+          "title": "Book | Diving"
+        },
+        "logo": {
+          "img": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navigation": {
+          "links": [
+            { "href": "./index", "label": "Home" },
+            { "href": "./diving", "label": "Diving" },
+            { "href": "./snorkel", "label": "Snorkel" },
+            { "href": "./boat", "label": "Boat trip" },
+            { "href": "./contact", "label": "Contact" }
+          ]
+        },
+        "main": {
+          "heading": "Day View for Selected Date",
+          "insufficientSpotsMessage": "Insufficient spots left!"
+        },
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "main": "../assets/src/scripts/script.js",
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "dayCalendar": "../assets/src/helpers/dayCalendar.mjs"
+        }
+      },
+      "payment":  {
+        "title": "Book | Diving",
+        "logoSrc": "../assets/public/img/logo-ocean-experience.svg",
+        "logoAlt": "Ocean Experience Logo",
+        "navLinks": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving.html", "text": "Diving" },
+          { "href": "./snorkel.html", "text": "Snorkel" },
+          { "href": "./boat.html", "text": "Boat trip" },
+          { "href": "./contact.html", "text": "Contact" }
+        ],
+        "socialLinks": [
+          { "href": "https://instagram.com", "icon": "fab fa-instagram fa-2x" },
+          { "href": "https://tiktok.com", "icon": "fa-brands fa-tiktok" },
+          { "href": "https://facebook.com", "icon": "fa-brands fa-facebook" }
+        ],
+        "contactHref": "mailto:contact@oceanexperience.mx",
+        "contactEmail": "contact@oceanexperience.mx",
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "paymentScreen": "../assets/src/screens/paymentScreen.mjs"
+        }
+      },
+      "placeorder": {
+        "pageTitle": "Book | Diving",
+        "logoPath": "../public/img/logo-ocean-experience.svg",
+        "navLinks": [
+          { "label": "Home", "href": "../" },
+          { "label": "Diving", "href": "./diving.html" },
+          { "label": "Snorkel", "href": "./snorkel.html" },
+          { "label": "Boat trip", "href": "./boat.html" },
+          { "label": "Contact", "href": "./contact.html" }
+        ],
+        "loadingMessage": "Loading...",
+        "socialLinks": [
+          { "iconClass": "fab fa-instagram fa-2x", "href": "" },
+          { "iconClass": "fa-brands fa-tiktok", "href": "" },
+          { "iconClass": "fa-brands fa-facebook", "href": "" }
+        ],
+        "contactEmail": "contact@oceanexperience.mx",
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "placeorderScreen": "../assets/src/screens/placeorderScreen.mjs"
+        }
+      },
+      "order": {
+        "title": "Book | Diving",
+        "logo": "../public/img/logo-ocean-experience.svg",
+        "navLinks": [
+          { "name": "Home", "url": "./index" },
+          { "name": "Diving", "url": "./diving.html" },
+          { "name": "Snorkel", "url": "./snorkel.html" },
+          { "name": "Boat trip", "url": "./boat.html" },
+          { "name": "Contact", "url": "./contact.html" }
+        ],
+        "overlays": {
+          "loading": "Loading...",
+          "message": ""
+        },
+        "socialLinks": [
+          { "id": "one", "url": "", "iconClass": "fab fa-instagram fa-2x" },
+          { "id": "two", "url": "", "iconClass": "fa-brands fa-tiktok" },
+          { "id": "three", "url": "", "iconClass": "fa-brands fa-facebook" }
+        ],
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "orderScreen": "../assets/src/screens/orderScreen.js"
+        }
+      }                                              
+    },
+    "fr": {
+      "index": {
+        "cssPath": "../assets/public/css/styles.css",
+        "wavesCssPath": "../assets/public/css/waves.css",
+        "fontAwesomePath": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+        "title": "Ocean Experience",
+        "pageTitle": "Contact",
+        "logoPath": "../assets/public/img/logo-ocean-experience.svg",
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Accueil" },
+          { "href": "./diving", "text": "Plongée" },
+          { "href": "./snorkel", "text": "Snorkeling" },
+          { "href": "./boat", "text": "Excursion en bateau" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "mainSection": {
+          "title": "Ocean Experience",
+          "subtitle": "Entreprise d'aventure aquatique",
+          "contactButton": "Contactez-nous"
+        },
+        "waves": [
+          { "class": "body__main-div--one-div--one body__main-div-div wave-acceso-2" },
+          { "class": "body__main-div--one-div--two body__main-div-div wave-acceso-0" },
+          { "class": "body__main-div--one-div--three body__main-div-div wave-acceso-1" }
+        ],
+        "cards": [
+          {
+            "imagePath": "../assets/public/img/boat_2.png",
+            "imageAlt": "Image de carte 1",
+            "content": "Notre équipage expérimenté et compétent répondra à tous vos besoins, garantissant un voyage inoubliable. Que vous désiriez une croisière romantique au coucher du soleil ou une expédition de snorkeling passionnante.",
+            "link": "./boat",
+            "buttonText": "En savoir plus"
+          },
+          {
+            "imagePath": "../assets/public/img/diving_2.png",
+            "imageAlt": "Image de carte 2",
+            "content": "Embarquez pour une expédition de plongée extraordinaire avec notre service de voyage de plongée premium. Découvrez le monde fascinant sous les vagues en explorant des récifs coralliens vibrants, des épaves anciennes et un kaléidoscope de vie marine.",
+            "link": "./diving",
+            "buttonText": "En savoir plus"
+          },
+          {
+            "imagePath": "../assets/public/img/snorkel_2.png",
+            "imageAlt": "Image de carte 3",
+            "content": "Vivez le luxe et la détente ultime avec notre service d'excursion privée en bateau. Partez à l'aventure aquatique personnalisée, où vous et votre groupe pourrez profiter de l'eau calme, des côtes vierges et des criques isolées.",
+            "link": "./snorkel",
+            "buttonText": "En savoir plus"
+          }
+        ],
+        "aboutImages": [
+          "../assets/public/img/galeria1.png",
+          "../assets/public/img/galeria2.png",
+          "../assets/public/img/galeria3.png",
+          "../assets/public/img/galeria4.png",
+          "../assets/public/img/galeria5.png",
+          "../assets/public/img/galeria1.png"
+        ],
+        "aboutSection": {
+          "title": "Bienvenue à Ocean Experience",
+          "description1": "Nous sommes ravis de vous accueillir à Ocean Experience, votre destination ultime pour des aventures aquatiques tout compris.",
+          "description2": "Notre équipe dévouée d'experts passionnés et d'équipage qualifié s'engage à vous offrir des expériences de la plus haute qualité.",
+          "description3": "Nous adaptons nos aventures aquatiques pour répondre à vos intérêts spécifiques, votre niveau de compétence et votre désir d'exploration.",
+          "description4": "Ocean Experience n'est pas seulement une entreprise de plongée et de snorkeling; nous sommes votre porte d'entrée vers les merveilles sous-marines et côtières étonnantes.",
+          "description5": "Nous comprenons que chaque aventurier est unique, c'est pourquoi nous avons l'aventure parfaite qui vous attend."
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "footerLinks": {
+          "social": [
+            { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+            { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+            { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+          ]
+        },
+        "footerInfo": {
+          "text": "Contactez-nous par email ou suivez-nous sur les réseaux sociaux pour des mises à jour.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPath": "../assets/src/scripts/script.js",
+        "burgerMenuScript": "../assets/src/scripts/burguerMenu.js",
+        "gotoScript": "../assets/src/utils/goto.js",
+        "contact": {
+          "title": "Contactez-nous",
+          "content": "Contactez-nous en français."
+        }
+      },
+      "diving": {
+        "title": "Ocean Experience | Plongée",
+        "lang": "fr",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Accueil" },
+          { "href": "./diving", "text": "Plongée" },
+          { "href": "./snorkel", "text": "Snorkeling" },
+          { "href": "./boat", "text": "Excursion en bateau" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "divingSection": {
+          "title": "Aventures en plongée",
+          "subtitle": "Explorez les merveilles sous les vagues",
+          "contactButton": "Contactez-nous",
+          "contactLink": "#"
+        },
+        "detailsSection": {
+          "title": "Plongez dans l'extraordinaire",
+          "description": "Rejoignez-nous pour des excursions de plongée de qualité premium qui offrent un voyage inoubliable pour découvrir les mystères des profondeurs marines.",
+          "features": [
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Guides experts",
+              "title": "1. Guides et instructeurs experts",
+              "description": "Nos guides enrichissent votre expérience avec des connaissances sur la vie marine et les écosystèmes."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Expériences sur mesure",
+              "title": "2. Expériences sur mesure",
+              "description": "Nous personnalisons les voyages en fonction de vos préférences pour une aventure de plongée unique."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Plongées au coucher du soleil",
+              "title": "3. Plongées tranquilles au coucher du soleil",
+              "description": "Profitez de plongées romantiques au coucher du soleil avec des vues imprenables et des eaux sereines."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Expéditions sous-marines",
+              "title": "4. Expéditions sous-marines passionnantes",
+              "description": "Explorez une vie marine diversifiée et des spots sous-marins captivants."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Équipement de haute qualité",
+              "title": "5. Équipement de plongée de haute qualité",
+              "description": "Nous fournissons un équipement de premier choix pour assurer votre sécurité et votre confort."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Sécurité",
+              "title": "6. La sécurité avant tout",
+              "description": "Notre équipe priorise la sécurité avec une formation approfondie et une préparation aux urgences."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Photographie",
+              "title": "7. Capturez des moments inoubliables",
+              "description": "Apportez votre appareil photo pour capturer le monde sous-marin fascinant."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Conservation de l'environnement",
+              "title": "8. Conservation de l'environnement",
+              "description": "Nous pratiquons une plongée responsable pour préserver l'écosystème marin fragile."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contactez-nous par e-mail ou suivez-nous sur les réseaux sociaux pour des mises à jour.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }
+      },    
+      "snorkel": {
+        "title": "Ocean Experience | Plongée en apnée",
+        "lang": "fr",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Accueil" },
+          { "href": "./diving", "text": "Plongée" },
+          { "href": "./snorkel", "text": "Plongée en apnée" },
+          { "href": "./boat", "text": "Excursion en bateau" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "snorkelSection": {
+          "title": "Aventures en plongée en apnée",
+          "subtitle": "Découvrez le monde marin vibrant",
+          "contactButton": "Contactez-nous",
+          "contactLink": "#"
+        },
+        "detailsSection": {
+          "title": "Plongez dans l'expérience de la plongée en apnée",
+          "description": "Embarquez pour un voyage inoubliable en plongée en apnée où vous rencontrerez des récifs coralliens colorés et une vie marine diversifiée.",
+          "features": [
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Guides experts",
+              "title": "1. Guides et instructeurs experts",
+              "description": "Nos guides offrent des informations fascinantes sur la vie marine, rendant votre expérience de plongée en apnée enrichissante."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Expériences personnalisées",
+              "title": "2. Voyages de plongée en apnée sur mesure",
+              "description": "Nous adaptons chaque voyage à vos préférences, garantissant une aventure de plongée en apnée parfaite pour vous."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Exploration sous-marine",
+              "title": "3. Superbes vues sous-marines",
+              "description": "Explorez les récifs coralliens vibrants et nagez avec des poissons exotiques dans des eaux cristallines."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Environnement détendu",
+              "title": "4. Eaux calmes et relaxantes",
+              "description": "Nos excursions de plongée en apnée vous emmènent dans des endroits paisibles, parfaits pour une expérience aquatique calme et sûre."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Équipement de qualité",
+              "title": "5. Équipement de plongée de qualité",
+              "description": "Nous fournissons des équipements de qualité pour une expérience de plongée en apnée confortable et sûre."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Sécurité avant tout",
+              "title": "6. Sécurité avant tout",
+              "description": "Votre sécurité est notre priorité avec des guides entièrement formés et une supervision attentive."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Photographie",
+              "title": "7. Capturez vos moments",
+              "description": "Apportez votre appareil photo pour capturer le magnifique monde sous-marin et partager vos souvenirs."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Conservation de l'environnement",
+              "title": "8. Pratiques écologiques",
+              "description": "Nous suivons des pratiques écologiques pour protéger l'écosystème marin fragile."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contactez-nous par e-mail ou suivez-nous sur les réseaux sociaux pour les mises à jour.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }
+      }, 
+      "boat": {
+        "title": "Ocean Experience | Excursion en Bateau",
+        "logo": {
+          "src": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Logo Ocean Experience"
+        },
+        "navLinks": [
+          { "href": "./index", "text": "Accueil" },
+          { "href": "./diving", "text": "Plongée" },
+          { "href": "./snorkel", "text": "Snorkeling" },
+          { "href": "./boat", "text": "Excursion en bateau" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "mainSection": {
+          "title": "Aventures en Bateau",
+          "subtitle": "Naviguez vers des Vues Inoubliables",
+          "cta": { "href": "#", "text": "Contactez-nous" }
+        },
+        "details": {
+          "title": "Embarquez pour un Voyage Maritime Inoubliable",
+          "description": "Découvrez les merveilles de la mer avec nos excursions en bateau exceptionnelles. Laissez-nous rendre votre voyage fluide et inoubliable.",
+          "features": [
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Capitaine Expert" },
+              "title": "1. Capitaine et Équipage Experts",
+              "description": "Expérimentés en navigation et en sécurité, notre équipage offre des connaissances enrichissantes pour garantir une expérience agréable."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Expériences Personnalisées" },
+              "title": "2. Expériences Personnalisées",
+              "description": "Des escapades sereines aux occasions spéciales, nous adaptons les excursions pour répondre à vos envies."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Croisières Côtières" },
+              "title": "3. Croisières Côtières Scéniques",
+              "description": "Admirez les superbes vues des côtes tout en vous relaxant dans un cadre paisible."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Aventures Nautiques" },
+              "title": "4. Aventures Nautiques Palpitantes",
+              "description": "Explorez des criques cachées et des îles grâce à nos excursions passionnantes."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Bateau Confortable" },
+              "title": "5. Bateau Confortable",
+              "description": "Naviguez confortablement sur notre bateau bien entretenu, équipé de toutes les commodités."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Sécurité Avant Tout" },
+              "title": "6. Sécurité Avant Tout",
+              "description": "Votre sécurité est notre priorité, avec un équipage formé prêt à vous assister."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Moments Mémorables" },
+              "title": "7. Capturez des Moments Mémorables",
+              "description": "Apportez votre appareil photo pour immortaliser les paysages et créer des souvenirs inoubliables."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Responsabilité Environnementale" },
+              "title": "8. Responsabilité Environnementale",
+              "description": "Nos excursions en bateau mettent l'accent sur des pratiques écologiques pour préserver l'environnement marin."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contactez-nous par email ou suivez-nous sur les réseaux sociaux pour des mises à jour.",
+          "copyright": "&copy; 2024 Ocean Experience. Tous droits réservés."
+        }
+      },
+      "contact": {
+        "pageTitle": "Ocean Experience | Contact",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "logoImg": "../assets/public/img/logo-ocean-experience.svg",
+        "logoAlt": "Logo Ocean Experience",
+        "navLinks": [
+          { "href": "./index", "text": "Accueil" },
+          { "href": "./diving", "text": "Plongée" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Excursion en bateau" },
+          { "href": "./contact", "text": "Contact" }
+        ],
+        "hubspotForm": {
+          "src": "//js.hsforms.net/forms/embed/v2.js",
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          {
+            "href": "https://www.instagram.com/eduardo.hazo/",
+            "iconClass": "footer__social-icon fab fa-instagram-square"
+          },
+          {
+            "href": "https://www.linkedin.com/in/eduardogonzalezjasso/",
+            "iconClass": "footer__social-icon fab fa-linkedin"
+          },
+          {
+            "href": "mailto:your-email@example.com",
+            "iconClass": "footer__social-icon fas fa-envelope"
+          }
+        ],
+        "footerInfo": "Contactez-nous par e-mail ou suivez-nous sur les réseaux sociaux pour les mises à jour.",
+        "footerCopyright": "2024 Ocean Experience. Tous droits réservés.",
+        "scripts": {
+          "script": "../src/scripts/script.js",
+          "burgerMenu": "../src/scripts/burguerMenu.js",
+          "goto": "./utils/goto.js"
+        }
+      },
+      "book":  {
+        "page": {
+          "title": "Ocean Experience | Boat Trip"
+        },
+        "styles": {
+          "main": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "book": "../assets/public/css/book.css",
+          "reservations": "../assets/public/css/more_css/reservations.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "logo": {
+          "src": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navigation": [
+          { "href": "./index", "label": "Home" },
+          { "href": "./diving", "label": "Diving" },
+          { "href": "./snorkel", "label": "Snorkel" },
+          { "href": "./boat", "label": "Boat trip" },
+          { "href": "./contact", "label": "Contact" }
+        ],
+        "main": {
+          "heading": "Booking Calendar",
+          "subheading": "Book Now!"
+        },
+        "bookingCalendar": {
+          "title": "Booking Calendar",
+          "currentMonth": "January 2024",
+          "days": [
+            {
+              "class": "one",
+              "imgClass": "one-img--one",
+              "imgSrc": "../assets/public/img/allfreeshift.svg",
+              "textClass": "one-div--one",
+              "text": "Available day"
+            },
+            {
+              "class": "two",
+              "imgClass": "two-img--one",
+              "imgSrc": "../assets/public/img/midfreeshift.svg",
+              "textClass": "two-div--one",
+              "text": "Half available day"
+            },
+            {
+              "class": "three",
+              "imgClass": "three-img--one",
+              "imgSrc": "../assets/public/img/allfullshift.svg",
+              "textClass": "three-div--one",
+              "text": "Full day"
+            },
+            {
+              "class": "four",
+              "imgClass": "four-img--one",
+              "imgSrc": "../assets/public/img/midfullshift.svg",
+              "textClass": "three-div--one",
+              "text": "Half full day"
+            }
+          ],
+          "prevMonthText": "Previous Month",
+          "nextMonthText": "Next Month"
+        },
+        "bookingForm": {
+          "heading": "Book Now!",
+          "fields": {
+            "username": {
+              "label": "Username"
+            },
+            "service": {
+              "label": "Service"
+            },
+            "price": {
+              "label": "Price"
+            },
+            "participants": {
+              "label": "Number of Participants"
+            }
+          },
+          "services": [
+            {
+              "value": "65403ead6f41b178fd0dcb63",
+              "label": "Snorkel Trip"
+            },
+            {
+              "value": "65404661c833a46a8812ef19",
+              "label": "Diving Trip"
+            },
+            {
+              "value": "65404a173d3fe96835c4646b",
+              "label": "Boat Trip"
+            }
+          ],
+          "participantOptions": [
+            { "value": "1", "label": "1" },
+            { "value": "2", "label": "2" },
+            { "value": "3", "label": "3" },
+            { "value": "4", "label": "4" },
+            { "value": "5", "label": "5" },
+            { "value": "6", "label": "6" },
+            { "value": "7", "label": "7" },
+            { "value": "8", "label": "8" },
+            { "value": "9", "label": "9" },
+            { "value": "10", "label": "10" }
+          ],
+          "totalText": "Total: $0.00", 
+          "submitText": "Submit",
+          "errorMessage": "You have to select a day of the month"
+        },
+        "overlays": {
+          "loading": "Loading...",
+          "message": "Reservation successfully sent!"
+        },
+        "socialLinks": [
+          {
+            "href": "https://www.instagram.com/eduardo.hazo/",
+            "iconClass": "footer__social-icon fab fa-instagram-square"
+          },
+          {
+            "href": "https://www.linkedin.com/in/eduardogonzalezjasso/",
+            "iconClass": "footer__social-icon fab fa-linkedin"
+          },
+          {
+            "href": "mailto:your-email@example.com",
+            "iconClass": "footer__social-icon fas fa-envelope"
+          }
+        ],
+        "footerInfo": "Contact us via email or follow us on social media for updates.",
+        "footerCopyright": "2024 Ocean Experience. All rights reserved.",
+        "scripts": {
+          "main": "../src/scripts/script.js",
+          "burgerMenu": "../src/scripts/burguerMenu.js",
+          "goto": "../src/utils/goto.js",
+          "config": "../src/utils/config.js",
+          "utils": "../src/utils/utils.js",
+          "hidde": "../src/helpers/hidde.js",
+          "calendar": "../src/helpers/calendar.mjs",
+          "bookingForm": "../src/helpers/bookingForm.js"
+        }
+      },
+      "day": {
+        "css": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+          "flowbite": "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css",
+          "book": "../assets/public/css/book.css",
+          "day": "../assets/public/css/more_css/day.css",
+          "navResponsive": "../assets/public/css/more_css/navResponsive.css",
+          "dayCalendar": "../assets/public/css/more_css/day.css"
+        },
+        "page": {
+          "title": "Book | Diving"
+        },
+        "logo": {
+          "img": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navigation": {
+          "links": [
+            { "href": "./index", "label": "Home" },
+            { "href": "./diving", "label": "Diving" },
+            { "href": "./snorkel", "label": "Snorkel" },
+            { "href": "./boat", "label": "Boat trip" },
+            { "href": "./contact", "label": "Contact" }
+          ]
+        },
+        "main": {
+          "heading": "Day View for Selected Date",
+          "insufficientSpotsMessage": "Insufficient spots left!"
+        },
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "main": "../assets/src/scripts/script.js",
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "dayCalendar": "../assets/src/helpers/dayCalendar.mjs"
+        }
+      },
+      "payment":  {
+        "title": "Book | Diving",
+        "logoSrc": "../assets/public/img/logo-ocean-experience.svg",
+        "logoAlt": "Ocean Experience Logo",
+        "navLinks": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving.html", "text": "Diving" },
+          { "href": "./snorkel.html", "text": "Snorkel" },
+          { "href": "./boat.html", "text": "Boat trip" },
+          { "href": "./contact.html", "text": "Contact" }
+        ],
+        "socialLinks": [
+          { "href": "https://instagram.com", "icon": "fab fa-instagram fa-2x" },
+          { "href": "https://tiktok.com", "icon": "fa-brands fa-tiktok" },
+          { "href": "https://facebook.com", "icon": "fa-brands fa-facebook" }
+        ],
+        "contactHref": "mailto:contact@oceanexperience.mx",
+        "contactEmail": "contact@oceanexperience.mx",
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "paymentScreen": "../assets/src/screens/paymentScreen.mjs"
+        }
+      },
+      "placeorder": {
+        "pageTitle": "Book | Diving",
+        "logoPath": "../public/img/logo-ocean-experience.svg",
+        "navLinks": [
+          { "label": "Home", "href": "../" },
+          { "label": "Diving", "href": "./diving.html" },
+          { "label": "Snorkel", "href": "./snorkel.html" },
+          { "label": "Boat trip", "href": "./boat.html" },
+          { "label": "Contact", "href": "./contact.html" }
+        ],
+        "loadingMessage": "Loading...",
+        "socialLinks": [
+          { "iconClass": "fab fa-instagram fa-2x", "href": "" },
+          { "iconClass": "fa-brands fa-tiktok", "href": "" },
+          { "iconClass": "fa-brands fa-facebook", "href": "" }
+        ],
+        "contactEmail": "contact@oceanexperience.mx",
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "placeorderScreen": "../assets/src/screens/placeorderScreen.mjs"
+        }
+      },
+      "order": {
+        "title": "Book | Diving",
+        "logo": "../public/img/logo-ocean-experience.svg",
+        "navLinks": [
+          { "name": "Home", "url": "./index" },
+          { "name": "Diving", "url": "./diving.html" },
+          { "name": "Snorkel", "url": "./snorkel.html" },
+          { "name": "Boat trip", "url": "./boat.html" },
+          { "name": "Contact", "url": "./contact.html" }
+        ],
+        "overlays": {
+          "loading": "Loading...",
+          "message": ""
+        },
+        "socialLinks": [
+          { "id": "one", "url": "", "iconClass": "fab fa-instagram fa-2x" },
+          { "id": "two", "url": "", "iconClass": "fa-brands fa-tiktok" },
+          { "id": "three", "url": "", "iconClass": "fa-brands fa-facebook" }
+        ],
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "orderScreen": "../assets/src/screens/orderScreen.js"
+        }
+      }                                                     
+    },
+    "es": {
+      "index": {
+        "cssPath": "../assets/public/css/styles.css",
+        "wavesCssPath": "../assets/public/css/waves.css",
+        "fontAwesomePath": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+        "title": "Ocean Experience",
+        "pageTitle": "Contacto",
+        "logoPath": "../assets/public/img/logo-ocean-experience.svg",
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Inicio" },
+          { "href": "./diving", "text": "Buceo" },
+          { "href": "./snorkel", "text": "Esnórquel" },
+          { "href": "./boat", "text": "Paseo en barco" },
+          { "href": "./contact", "text": "Contacto" }
+        ],
+        "mainSection": {
+          "title": "Ocean Experience",
+          "subtitle": "Empresa de Aventura Acuática",
+          "contactButton": "Contáctanos"
+        },
+        "waves": [
+          { "class": "body__main-div--one-div--one body__main-div-div wave-acceso-2" },
+          { "class": "body__main-div--one-div--two body__main-div-div wave-acceso-0" },
+          { "class": "body__main-div--one-div--three body__main-div-div wave-acceso-1" }
+        ],
+        "cards": [
+          {
+            "imagePath": "../assets/public/img/boat_2.png",
+            "imageAlt": "Imagen de tarjeta 1",
+            "content": "Nuestro experimentado y conocedor equipo atenderá todas tus necesidades, asegurando un viaje inolvidable. Ya sea que desees un romántico paseo al atardecer o una emocionante expedición de esnórquel.",
+            "link": "./boat",
+            "buttonText": "Saber más"
+          },
+          {
+            "imagePath": "../assets/public/img/diving_2.png",
+            "imageAlt": "Imagen de tarjeta 2",
+            "content": "Embarca en una extraordinaria expedición de buceo con nuestro servicio premium de viajes de buceo. Descubre el fascinante mundo bajo las olas mientras exploras vibrantes arrecifes de coral, antiguos naufragios y una caleidoscopio de vida marina.",
+            "link": "./diving",
+            "buttonText": "Saber más"
+          },
+          {
+            "imagePath": "../assets/public/img/snorkel_2.png",
+            "imageAlt": "Imagen de tarjeta 3",
+            "content": "Experimenta lo último en lujo y relajación con nuestro servicio de paseo privado en barco. Zarpa en tu propia aventura acuática personalizada, donde tú y tu grupo pueden disfrutar de las hermosas aguas tranquilas, costas vírgenes y calas apartadas.",
+            "link": "./snorkel",
+            "buttonText": "Saber más"
+          }
+        ],
+        "aboutImages": [
+          "../assets/public/img/galeria1.png",
+          "../assets/public/img/galeria2.png",
+          "../assets/public/img/galeria3.png",
+          "../assets/public/img/galeria4.png",
+          "../assets/public/img/galeria5.png",
+          "../assets/public/img/galeria1.png"
+        ],
+        "aboutSection": {
+          "title": "Bienvenidos a Ocean Experience",
+          "description1": "Estamos encantados de darte la bienvenida a Ocean Experience, tu destino definitivo para aventuras acuáticas todo incluido.",
+          "description2": "Nuestro equipo dedicado de expertos apasionados y tripulación calificada está comprometido a ofrecerte experiencias de la más alta calidad.",
+          "description3": "Adaptamos nuestras aventuras acuáticas para satisfacer tus intereses específicos, nivel de habilidad y deseos de exploración.",
+          "description4": "Ocean Experience no es solo una empresa de buceo y esnórquel; somos tu puerta de entrada a las asombrosas maravillas submarinas y costeras.",
+          "description5": "Entendemos que cada aventurero es único, y por eso tenemos la aventura perfecta esperándote."
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "footerLinks": {
+          "social": [
+            { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+            { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+            { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+          ]
+        },
+        "footerInfo": {
+          "text": "Contáctanos por correo electrónico o síguenos en las redes sociales para actualizaciones.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPath": "../assets/src/scripts/script.js",
+        "burgerMenuScript": "../assets/src/scripts/burguerMenu.js",
+        "gotoScript": "../assets/src/utils/goto.js",
+        "contact": {
+          "title": "Contáctenos",
+          "content": "Contáctenos en español."
+        }
+      },
+      "diving": {
+        "title": "Ocean Experience | Buceo",
+        "lang": "es",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Inicio" },
+          { "href": "./diving", "text": "Buceo" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./contact", "text": "Contacto" }
+        ],
+        "divingSection": {
+          "title": "Aventuras de buceo",
+          "subtitle": "Explora las maravillas bajo las olas",
+          "contactButton": "Contáctanos",
+          "contactLink": "#"
+        },
+        "detailsSection": {
+          "title": "Sumérgete en lo extraordinario",
+          "description": "Únete a nosotros en viajes de buceo premium que ofrecen una experiencia inolvidable para descubrir los misterios del fondo marino.",
+          "features": [
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Guías expertos",
+              "title": "1. Guías e instructores expertos",
+              "description": "Nuestros guías enriquecen tu experiencia con conocimientos sobre la vida marina y los ecosistemas."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Experiencias a medida",
+              "title": "2. Experiencias personalizadas",
+              "description": "Personalizamos los viajes según tus preferencias para una aventura de buceo única."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Buceos al atardecer",
+              "title": "3. Buceos tranquilos al atardecer",
+              "description": "Disfruta de buceos románticos al atardecer con vistas impresionantes y aguas tranquilas."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Expediciones subacuáticas",
+              "title": "4. Emocionantes expediciones subacuáticas",
+              "description": "Explora una vida marina diversa y fascinantes lugares submarinos."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Equipo de alta calidad",
+              "title": "5. Equipo de buceo de alta calidad",
+              "description": "Proveemos equipos de primera clase para garantizar tu seguridad y comodidad."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Seguridad",
+              "title": "6. La seguridad es lo primero",
+              "description": "Nuestro equipo prioriza la seguridad con entrenamiento extenso y preparación ante emergencias."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Fotografía",
+              "title": "7. Captura momentos inolvidables",
+              "description": "Trae tu cámara para capturar el fascinante mundo submarino."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Conservación ambiental",
+              "title": "8. Conservación ambiental",
+              "description": "Practicamos un buceo responsable para preservar el frágil ecosistema marino."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contáctanos por correo electrónico o síguenos en las redes sociales para actualizaciones.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }
+      },
+      "snorkel": {
+        "title": "Ocean Experience | Snorkel",
+        "lang": "es",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
+          { "href": "./index", "text": "Inicio" },
+          { "href": "./diving", "text": "Buceo" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./contact", "text": "Contacto" }
+        ],
+        "snorkelSection": {
+          "title": "Aventuras de snorkel",
+          "subtitle": "Descubre el vibrante mundo marino",
+          "contactButton": "Contáctanos",
+          "contactLink": "#"
+        },
+        "detailsSection": {
+          "title": "Sumérgete en la experiencia de snorkel",
+          "description": "Embárcate en un inolvidable viaje de snorkel donde encontrarás coloridos arrecifes de coral y diversa vida marina.",
+          "features": [
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Guías expertos",
+              "title": "1. Guías e instructores expertos",
+              "description": "Nuestros guías brindan fascinantes conocimientos sobre la vida marina, haciendo que tu experiencia de snorkel sea enriquecedora."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Experiencias personalizadas",
+              "title": "2. Viajes de snorkel personalizables",
+              "description": "Adaptamos cada viaje a tus preferencias, asegurando una aventura perfecta de snorkel para ti."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Exploración submarina",
+              "title": "3. Impresionantes vistas submarinas",
+              "description": "Explora los vibrantes arrecifes de coral y nada con peces exóticos en aguas cristalinas."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Ambiente relajado",
+              "title": "4. Aguas tranquilas y relajantes",
+              "description": "Nuestros viajes de snorkel te llevan a lugares pacíficos, perfectos para una experiencia acuática tranquila y segura."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Equipo de calidad",
+              "title": "5. Equipo de snorkel de calidad",
+              "description": "Proporcionamos equipos de alta calidad para una experiencia de snorkel cómoda y segura."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Seguridad primero",
+              "title": "6. Seguridad ante todo",
+              "description": "Tu seguridad es nuestra prioridad con guías totalmente capacitados y supervisión cuidadosa."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Fotografía",
+              "title": "7. Captura tus momentos",
+              "description": "Trae tu cámara para capturar el hermoso mundo submarino y compartir tus recuerdos."
+            },
+            {
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Conservación ambiental",
+              "title": "8. Prácticas ecológicas",
+              "description": "Seguimos prácticas ecológicas para proteger el frágil ecosistema marino."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contáctanos por correo electrónico o síguenos en redes sociales para actualizaciones.",
+          "companyName": "Ocean Experience"
+        },
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }
+      },
+      "boat": {
+        "title": "Ocean Experience | Excursión en Barco",
+        "logo": {
+          "src": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Logotipo de Ocean Experience"
+        },
+        "navLinks": [
+          { "href": "./index", "text": "Inicio" },
+          { "href": "./diving", "text": "Buceo" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./contact", "text": "Contacto" }
+        ],
+        "mainSection": {
+          "title": "Aventuras en Barco",
+          "subtitle": "Navega hacia Vistas Inolvidables",
+          "cta": { "href": "#", "text": "Contáctanos" }
+        },
+        "details": {
+          "title": "Embarca en un Viaje Marítimo Inolvidable",
+          "description": "Descubre las maravillas del mar con nuestras excepcionales excursiones en barco. Permítenos hacer que tu viaje sea fluido e inolvidable.",
+          "features": [
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Capitán Experto" },
+              "title": "1. Capitán y Tripulación Expertos",
+              "description": "Con experiencia en navegación y seguridad, nuestra tripulación ofrece conocimientos enriquecedores para una experiencia agradable."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Experiencias Personalizadas" },
+              "title": "2. Experiencias Personalizadas",
+              "description": "Desde escapadas tranquilas hasta ocasiones especiales, adaptamos las excursiones para satisfacer tus deseos."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Cruceros Costeros" },
+              "title": "3. Cruceros Costeros Escénicos",
+              "description": "Disfruta de impresionantes vistas de las costas mientras te relajas en un entorno tranquilo."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Aventuras Náuticas" },
+              "title": "4. Aventuras Náuticas Emocionantes",
+              "description": "Explora calas escondidas e islas en nuestras emocionantes excursiones."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Barco Cómodo" },
+              "title": "5. Barco Cómodo",
+              "description": "Navega con comodidad en nuestro barco bien mantenido, equipado con todas las comodidades."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Seguridad Primero" },
+              "title": "6. Seguridad Primero",
+              "description": "Tu seguridad es nuestra prioridad, con una tripulación capacitada lista para asistirte."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Momentos Memorables" },
+              "title": "7. Captura Momentos Memorables",
+              "description": "Trae tu cámara para capturar paisajes y crear recuerdos inolvidables."
+            },
+            {
+              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Responsabilidad Ambiental" },
+              "title": "8. Responsabilidad Ambiental",
+              "description": "Nuestras excursiones en barco enfatizan prácticas ecológicas para preservar el entorno marino."
+            }
+          ]
+        },
+        "hubspot": {
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contáctanos por correo electrónico o síguenos en redes sociales para actualizaciones.",
+          "copyright": "&copy; 2024 Ocean Experience. Todos los derechos reservados."
+        }
+      },
+      "contact": {
+        "pageTitle": "Ocean Experience | Contáctanos",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "logoImg": "../assets/public/img/logo-ocean-experience.svg",
+        "logoAlt": "Logotipo de Ocean Experience",
+        "navLinks": [
+          { "href": "./index", "text": "Inicio" },
+          { "href": "./diving", "text": "Buceo" },
+          { "href": "./snorkel", "text": "Esnórquel" },
+          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./contact", "text": "Contáctanos" }
+        ],
+        "hubspotForm": {
+          "src": "//js.hsforms.net/forms/embed/v2.js",
+          "portalId": "47277250",
+          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        },
+        "socialLinks": [
+          {
+            "href": "https://www.instagram.com/eduardo.hazo/",
+            "iconClass": "footer__social-icon fab fa-instagram-square"
+          },
+          {
+            "href": "https://www.linkedin.com/in/eduardogonzalezjasso/",
+            "iconClass": "footer__social-icon fab fa-linkedin"
+          },
+          {
+            "href": "mailto:your-email@example.com",
+            "iconClass": "footer__social-icon fas fa-envelope"
+          }
+        ],
+        "footerInfo": "Contáctanos por correo electrónico o síguenos en redes sociales para actualizaciones.",
+        "footerCopyright": "2024 Ocean Experience. Todos los derechos reservados.",
+        "scripts": {
+          "script": "../src/scripts/script.js",
+          "burgerMenu": "../src/scripts/burguerMenu.js",
+          "goto": "./utils/goto.js"
+        }
+      },
+      "book":  {
+        "page": {
+          "title": "Ocean Experience | Boat Trip"
+        },
+        "styles": {
+          "main": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "book": "../assets/public/css/book.css",
+          "reservations": "../assets/public/css/more_css/reservations.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "logo": {
+          "src": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navigation": [
+          { "href": "./index", "label": "Home" },
+          { "href": "./diving", "label": "Diving" },
+          { "href": "./snorkel", "label": "Snorkel" },
+          { "href": "./boat", "label": "Boat trip" },
+          { "href": "./contact", "label": "Contact" }
+        ],
+        "main": {
+          "heading": "Booking Calendar",
+          "subheading": "Book Now!"
+        },
+        "bookingCalendar": {
+          "title": "Booking Calendar",
+          "currentMonth": "January 2024",
+          "days": [
+            {
+              "class": "one",
+              "imgClass": "one-img--one",
+              "imgSrc": "../assets/public/img/allfreeshift.svg",
+              "textClass": "one-div--one",
+              "text": "Available day"
+            },
+            {
+              "class": "two",
+              "imgClass": "two-img--one",
+              "imgSrc": "../assets/public/img/midfreeshift.svg",
+              "textClass": "two-div--one",
+              "text": "Half available day"
+            },
+            {
+              "class": "three",
+              "imgClass": "three-img--one",
+              "imgSrc": "../assets/public/img/allfullshift.svg",
+              "textClass": "three-div--one",
+              "text": "Full day"
+            },
+            {
+              "class": "four",
+              "imgClass": "four-img--one",
+              "imgSrc": "../assets/public/img/midfullshift.svg",
+              "textClass": "three-div--one",
+              "text": "Half full day"
+            }
+          ],
+          "prevMonthText": "Previous Month",
+          "nextMonthText": "Next Month"
+        },
+        "bookingForm": {
+          "heading": "Book Now!",
+          "fields": {
+            "username": {
+              "label": "Username"
+            },
+            "service": {
+              "label": "Service"
+            },
+            "price": {
+              "label": "Price"
+            },
+            "participants": {
+              "label": "Number of Participants"
+            }
+          },
+          "services": [
+            {
+              "value": "65403ead6f41b178fd0dcb63",
+              "label": "Snorkel Trip"
+            },
+            {
+              "value": "65404661c833a46a8812ef19",
+              "label": "Diving Trip"
+            },
+            {
+              "value": "65404a173d3fe96835c4646b",
+              "label": "Boat Trip"
+            }
+          ],
+          "participantOptions": [
+            { "value": "1", "label": "1" },
+            { "value": "2", "label": "2" },
+            { "value": "3", "label": "3" },
+            { "value": "4", "label": "4" },
+            { "value": "5", "label": "5" },
+            { "value": "6", "label": "6" },
+            { "value": "7", "label": "7" },
+            { "value": "8", "label": "8" },
+            { "value": "9", "label": "9" },
+            { "value": "10", "label": "10" }
+          ],
+          "totalText": "Total: $0.00", 
+          "submitText": "Submit",
+          "errorMessage": "You have to select a day of the month"
+        },
+        "overlays": {
+          "loading": "Loading...",
+          "message": "Reservation successfully sent!"
+        },
+        "socialLinks": [
+          {
+            "href": "https://www.instagram.com/eduardo.hazo/",
+            "iconClass": "footer__social-icon fab fa-instagram-square"
+          },
+          {
+            "href": "https://www.linkedin.com/in/eduardogonzalezjasso/",
+            "iconClass": "footer__social-icon fab fa-linkedin"
+          },
+          {
+            "href": "mailto:your-email@example.com",
+            "iconClass": "footer__social-icon fas fa-envelope"
+          }
+        ],
+        "footerInfo": "Contact us via email or follow us on social media for updates.",
+        "footerCopyright": "2024 Ocean Experience. All rights reserved.",
+        "scripts": {
+          "main": "../src/scripts/script.js",
+          "burgerMenu": "../src/scripts/burguerMenu.js",
+          "goto": "../src/utils/goto.js",
+          "config": "../src/utils/config.js",
+          "utils": "../src/utils/utils.js",
+          "hidde": "../src/helpers/hidde.js",
+          "calendar": "../src/helpers/calendar.mjs",
+          "bookingForm": "../src/helpers/bookingForm.js"
+        }
+      },
+      "day": {
+        "css": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css",
+          "flowbite": "https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css",
+          "book": "../assets/public/css/book.css",
+          "day": "../assets/public/css/more_css/day.css",
+          "navResponsive": "../assets/public/css/more_css/navResponsive.css",
+          "dayCalendar": "../assets/public/css/more_css/day.css"
+        },
+        "page": {
+          "title": "Book | Diving"
+        },
+        "logo": {
+          "img": "../assets/public/img/logo-ocean-experience.svg",
+          "alt": "Ocean Experience Logo"
+        },
+        "navigation": {
+          "links": [
+            { "href": "./index", "label": "Home" },
+            { "href": "./diving", "label": "Diving" },
+            { "href": "./snorkel", "label": "Snorkel" },
+            { "href": "./boat", "label": "Boat trip" },
+            { "href": "./contact", "label": "Contact" }
+          ]
+        },
+        "main": {
+          "heading": "Day View for Selected Date",
+          "insufficientSpotsMessage": "Insufficient spots left!"
+        },
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "main": "../assets/src/scripts/script.js",
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "dayCalendar": "../assets/src/helpers/dayCalendar.mjs"
+        }
+      },
+      "payment": {
+        "title": "Book | Diving",
+        "logoSrc": "../assets/public/img/logo-ocean-experience.svg",
+        "logoAlt": "Ocean Experience Logo",
+        "navLinks": [
+          { "href": "./index", "text": "Home" },
+          { "href": "./diving.html", "text": "Diving" },
+          { "href": "./snorkel.html", "text": "Snorkel" },
+          { "href": "./boat.html", "text": "Boat trip" },
+          { "href": "./contact.html", "text": "Contact" }
+        ],
+        "socialLinks": [
+          { "href": "https://instagram.com", "icon": "fab fa-instagram fa-2x" },
+          { "href": "https://tiktok.com", "icon": "fa-brands fa-tiktok" },
+          { "href": "https://facebook.com", "icon": "fa-brands fa-facebook" }
+        ],
+        "contactHref": "mailto:contact@oceanexperience.mx",
+        "contactEmail": "contact@oceanexperience.mx",
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "paymentScreen": "../assets/src/screens/paymentScreen.mjs"
+        }
+      },
+      "placeorder": {
+        "pageTitle": "Book | Diving",
+        "logoPath": "../public/img/logo-ocean-experience.svg",
+        "navLinks": [
+          { "label": "Home", "href": "../" },
+          { "label": "Diving", "href": "./diving.html" },
+          { "label": "Snorkel", "href": "./snorkel.html" },
+          { "label": "Boat trip", "href": "./boat.html" },
+          { "label": "Contact", "href": "./contact.html" }
+        ],
+        "loadingMessage": "Loading...",
+        "socialLinks": [
+          { "iconClass": "fab fa-instagram fa-2x", "href": "" },
+          { "iconClass": "fa-brands fa-tiktok", "href": "" },
+          { "iconClass": "fa-brands fa-facebook", "href": "" }
+        ],
+        "contactEmail": "contact@oceanexperience.mx",
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "placeorderScreen": "../assets/src/screens/placeorderScreen.mjs"
+        }
+      },
+      "order": {
+        "title": "Book | Diving",
+        "logo": "../public/img/logo-ocean-experience.svg",
+        "navLinks": [
+          { "name": "Home", "url": "./index" },
+          { "name": "Diving", "url": "./diving.html" },
+          { "name": "Snorkel", "url": "./snorkel.html" },
+          { "name": "Boat trip", "url": "./boat.html" },
+          { "name": "Contact", "url": "./contact.html" }
+        ],
+        "overlays": {
+          "loading": "Loading...",
+          "message": ""
+        },
+        "socialLinks": [
+          { "id": "one", "url": "", "iconClass": "fab fa-instagram fa-2x" },
+          { "id": "two", "url": "", "iconClass": "fa-brands fa-tiktok" },
+          { "id": "three", "url": "", "iconClass": "fa-brands fa-facebook" }
+        ],
+        "footer": {
+          "socialLinks": [
+            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
+            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
+            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
+          ],
+          "infoText": "Contact us via email or follow us on social media for updates.",
+          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
+        },
+        "scripts": {
+          "burgerMenu": "../assets/src/scripts/burguerMenu.js",
+          "goto": "../assets/src/utils/goto.js",
+          "order": "../assets/src/screens/orderScreen.js"
+        }
+      }                                                                      
+    }
+  }
+  

@@ -1,0 +1,110 @@
+/* Container for waves */
+.waves-container {
+    position: relative;
+    height: 1vw; /* Adjust height as needed */
+    background-color: var(--white);
+}
+
+/* Base style for waves */
+.wave {
+    position: absolute;
+    bottom: 0;
+    width: 100px;
+    height: 150px;
+    transform: translate3d(0, 0, 0);
+}
+
+/* Wave styles with specific animations */
+.wave-acceso-0 {
+    height: 150px;
+    background: url(../../public/img/wave-white.svg) repeat-x;
+    animation: wave 9.2s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.100s infinite, 
+               swell 10s ease -1.00s infinite;
+    opacity: 1;
+    position: absolute;
+    top: -135px;
+    width: 1000%;
+}
+
+.wave-acceso-1 {
+    height: 150px;
+    background: url(../../public/img/wave-white.svg);
+    animation: wave 9.5s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.95s infinite, 
+               swell 10s ease -1.05s infinite;
+    opacity: 1;
+    position: absolute;
+    top: -130px;
+    width: 1000%;
+}
+
+.wave-acceso-2 {
+    height: 150px;
+    background: url(../../public/img/wave-white-2.svg);
+    animation: wave 9.2s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.90s infinite, 
+               swell 10s ease -1.10s infinite;
+    opacity: 1;
+    position: absolute;
+    top: -125px;
+    width: 1000%;
+}
+
+.wave-acceso-3 {
+    height: 150px;
+    background: url(../../public/img/wave-white-top.svg);
+    animation: wave 9.2s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.90s infinite, 
+               swell 10s ease -1.10s infinite;
+    opacity: 1;
+    position: absolute;
+    bottom: -145px;
+    width: 1000%;
+    z-index: 1;
+}
+
+.wave:nth-of-type(1) {
+    background: url(../../public/img/wave-white.svg) repeat-x;
+    top: -150px;
+    animation: wave 9.5s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.95s infinite, 
+               swell 10s ease -1.05s infinite;
+    opacity: 1;
+}
+
+.wave:nth-of-type(2) {
+    background: url(../../public/img/wave-white-2.svg) repeat-x;
+    top: -135px;
+    animation: wave 9.2s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.90s infinite, 
+               swell 10s ease -1.10s infinite;
+    opacity: 1;
+}
+
+.wave:nth-of-type(3) {
+    background: url(../../public/img/wave-blue.svg) repeat-x;
+    top: -110px;
+    animation: wave 9s cubic-bezier(0.36, 0.45, 0.63, 0.53) -.140s infinite, 
+               swell 10s ease -1.40s infinite;
+    opacity: 1;
+    height: 150px;
+}
+
+/* Keyframes for wave animation */
+@keyframes wave {
+    0% { margin-left: 0; }
+    100% { margin-left: -1600px; }
+}
+
+/* Keyframes for swell animation */
+@keyframes swell {
+    0%, 100% { transform: translate3d(0, -25px, 0); }
+    50% { transform: translate3d(0, 5px, 0); }
+}
+
+
+
+
+
+
+
+
+
+
+
+

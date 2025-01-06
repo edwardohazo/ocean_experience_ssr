@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="<%= lang %>">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<%= cssPaths.styles %>">
+    <link rel="stylesheet" href="<%= cssPaths.serviceDescription %>">
+    <link href="<%= cssPaths.fontAwesome %>" rel="stylesheet" />
+    <title><%= title %></title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" src="<%= imgPaths.logo %>" alt="logo">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <% navItems.forEach(function(item) { %>
+                    <li>
+                        <a href="<%= item.href %>"><%= item.text %></a>
+                    </li>
+                <% }); %>
+            </ul>
+        </nav>
+
+        <button class="burger" id="burgerMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </header>
+
+    <!-- Fullscreen Navigation for Mobile -->
+    <nav class="mobile-nav" id="navMenu">
+        <button class="close" id="closeMenu">&times;</button>
+        <% navItems.forEach(function(item) { %>
+            <a href="<%= item.href %>"><%= item.text %></a>
+        <% }); %>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- snorkel Section -->
+        <section class="main-section-one main-section-one-snorkel">
+            <h1><%= snorkelSection.title %></h1>
+            <h2><%= snorkelSection.subtitle %></h2>
+            <button class="contact-us-button">
+                <a href="#snorkel-contact-form"><%= snorkelSection.contactButton %></a>
+            </button>
+        </section>
+
+        <!-- snorkel Details Section -->
+        <section class="all-details-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2><%= detailsSection.title %></h2>
+                    <p><%= detailsSection.description %></p>
+                </div>
+
+                <div class="features-grid">
+                    <% detailsSection.features.forEach(function(feature) { %>
+                        <div class="feature-item">
+                            <img src="<%= feature.imgSrc %>" alt="<%= feature.imgAlt %>">
+                            <h4><%= feature.title %></h4>
+                            <p><%= feature.description %></p>
+                        </div>
+                    <% }); %>
+                </div>
+            </div>
+        </section>
+
+        <section class="main-section-one-contact" id="snorkel-contact-form">
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+                hbspt.forms.create({
+                    portalId: "<%= hubspot.portalId %>",
+                    formId: "<%= hubspot.formId %>"
+                });
+            </script>
+        </section>
+
+    </main>
+
+    <!-- Footer Content -->
+    <footer class="footer">
+        <div class="footer__social-links">
+            <ul class="footer__social-list">
+                <% socialLinks.forEach(function(link) { %>
+                    <li class="footer__social-item">
+                        <a href="<%= link.url %>" class="footer__social-link">
+                            <i class="footer__social-icon <%= link.iconClass %>"></i>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+        <div class="footer__info">
+            <p class="footer__info-text"><%= footerInfo.text %></p>
+        </div>
+        <div class="footer__copyright">
+            <p>&copy; <%= currentYear %> <%= footerInfo.companyName %>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="<%= scriptPaths.mainScript %>"></script>
+    <script src="<%= scriptPaths.burgerMenuScript %>"></script>
+    <script src="<%= scriptPaths.gotoScript %>"></script>
+</body>
+</html>

@@ -1,0 +1,7 @@
+.reservation {
+    padding: 10%;
+}
+.payment-submit {
+    background-color: var(--green);
+    color: #fff;
+}

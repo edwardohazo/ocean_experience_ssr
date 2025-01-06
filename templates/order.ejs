@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/public/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link href="../assets/public/css/book.css" rel="stylesheet" />
+    <link href="../assets/public/css/more_css/order.css" rel="stylesheet" /> 
+    <title class="lang-element"><%= title %></title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" src="<%= logo %>" alt="Logo">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <% navLinks.forEach(function(link) { %>
+                    <li><a href="<%= link.url %>"><%= link.name %></a></li>
+                <% }) %>
+            </ul>
+        </nav>
+
+        <button class="burger" id="burgerMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </header>
+
+    <!-- Fullscreen Navigation for Mobile -->
+    <nav class="mobile-nav" id="navMenu">
+        <button class="close" id="closeMenu">&times;</button>
+        <% navLinks.forEach(function(link) { %>
+            <a href="<%= link.url %>"><%= link.name %></a>
+        <% }) %>
+    </nav>
+
+    <main class="body__main">
+        <div class="overlay" id="loading-overlay"><%= overlays.loading %></div>
+        <div class="overlay" id="message-overlay"><%= overlays.message %></div>
+        <div class="body__main-div--three body__main-div--one body__main-div body__main-divOrder" id="main-divOrder"></div>
+    </main> 
+
+    <!-- Footer Content -->
+    <footer class="footer">
+        <div class="footer__social-links">
+            <ul class="footer__social-list">
+                <% footer.socialLinks.forEach(social => { %>
+                    <li class="footer__social-item">
+                        <a href="<%= social.href %>" class="footer__social-link">
+                            <i class="footer__social-icon <%= social.icon %>"></i>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+        
+        <div class="footer__info">
+            <p class="footer__info-text"><%= footer.infoText %></p>
+        </div>
+    
+        <div class="footer__copyright">
+            <p><%= footer.copyright %></p>
+        </div>
+    </footer>
+
+    <!-- <script src="../src/utils/goto.js"></script>
+    <script src="../src/scripts/burguerMenu.js"></script>
+    <script src="../src/screens/orderScreen.js" type="module"></script>   -->
+
+    <!-- Scripts -->
+    <script src="<%= scripts.goto %>"></script>
+    <script src="<%= scripts.burgerMenu %>"></script>
+    <script src="<%= scripts.orderScreen %>" type="module"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+

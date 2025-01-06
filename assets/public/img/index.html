@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link href="./public/css/styles.css" rel="stylesheet" />
+    <link href="./public/css/navResponsive.css" rel="stylesheet" />
+    <link href="./src/css/styles.css" rel="stylesheet" />
+    <title class="lang-element"></title>
+</head>
+<body class="body body-index">
+    <header class="body__header">
+        <nav class="body__header-nav--one body__header-nav">
+            <div class="body__header-nav--one-div--one body__header-nav-div">
+                <img class="body__header-nav--one-div--one-img--one body__header-nav-div-img" src="./public/img/logo-ocean-experience.svg" alt="">
+            </div>
+            <ul class="body__header-nav--one-ul--one body__header-nav-ul">
+                <li class="body__header-nav--one-ul--one-li--one  body__header-nav-ul-li body__header-nav-ul-li--active">
+                    <a class="body__header-nav--one-ul--one-li--one-a--one body__header-nav-ul-li-a lang-element" href="./index.html"></a>
+                </li>
+                <li class="body__header-nav--one-ul--one-li--two  body__header-nav-ul-li">
+                    <a class="body__header-nav--one-ul--one-li--two-a--one body__header-nav-ul-li-a lang-element" href="./src/services.html"></a>
+                    <ul class="body__header-nav--one-ul--one-li--two-ul--one body__header-nav-ul-li-ul">
+                        <li class="body__header-nav--one-ul--one-li--two-ul--one-li--one body__header-nav-ul-li-ul-li">
+                            <a class="body__header-nav--one-ul--one-li--two-ul--one-li--one-a--one body__header-nav-ul-li-ul-li-a lang-element" href="./src/snorkel-trip.html"></a>
+                        </li>
+                        <li class="body__header-nav--one-ul--one-li--two-ul--one-li--two body__header-nav-ul-li-ul-li">
+                            <a class="body__header-nav--one-ul--one-li--two-ul--one-li--two-a--one body__header-nav-ul-li-ul-li-a lang-element" href="./src/diving-trip.html"></a>
+                        </li>
+                        <li class="body__header-nav--one-ul--one-li--two-ul--one-li--three body__header-nav-ul-li-ul-li">
+                            <a class="body__header-nav--one-ul--one-li--two-ul--one-li--three-a--one body__header-nav-ul-li-ul-li-a lang-element" href="./src/boat-trip.html"></a>
+                        </li>
+                    </ul>
+                </li>
+                <li class="body__header-nav--one-ul--one-li--three body__header-nav-ul-li">
+                    <a class="body__header-nav--one-ul--one-li--three-a--one body__header-nav-ul-li-a lang-element" href="./src/contact.html"></a>
+                </li>
+            </ul>
+            
+            <div class="language-switch" style="display: none;">
+                <select id="language">
+                    <option value="en">English</option>
+                    <option value="fr">Français</option>
+                    <option value="es">Español</option>
+                </select>
+            </div>
+            
+            <div class="body__header-nav--one-div--three body__header-nav-div">
+                <button class="body__header-nav--one-div--three-button--one body__header-nav-div-button">
+                    <i class="fa-solid fa-bag-shopping"></i>
+                    <a class="body__header-nav--one-div--three-button--one-a--one  body__header-nav-div-button-a lang-element" href="./src/book.html">
+                    </a>
+                </button>
+            </div>
+        </nav>
+    </header>  
+    <!-- RESPONSIVE HEADER -->
+    <header class="body__headerResponsive">
+        <nav class="body__headerResponsive-nav--one  body__headerResponsive-nav">
+            <input class="body__headerResponsive-nav--one-input--one body__headerResponsive-nav-input" id="abrir-cerrar" id="abrir-cerrar" name="abrir-cerrar" type="checkbox" value="" />
+            <label class="body__headerResponsive-nav--one-label--one body__headerResponsive-nav-label toggle-button" for="abrir-cerrar">
+                <span class="body__headerResponsive-nav--one-label--one-span--one body__headerResponsive-nav-label-span cerrar" title="Cerrar">Cerrar</span>
+                <span class="body__headerResponsive-nav--one-label--one-span--two body__headerResponsive-nav-label-span abrir" title="Abrir">Abrir</span>
+            </label>
+            <ul class="body__headerResponsive-nav--one-ul--one  body__headerResponsive-nav-ul">
+                <li class="body__headerResponsive-nav--one-ul--one-li--one body__headerResponsive-nav-ul-li"><a href="./index.html" class="lang-element"></a></li>
+                <li class="body__headerResponsive-nav--one-ul--one-li--two body__headerResponsive-nav-ul-li"><a href="./src/snorkel-trip.html" class="lang-element"></a></li>
+                <li class="body__headerResponsive-nav--one-ul--one-li--three body__headerResponsive-nav-ul-li"><a href="./src/diving-trip.html" class="lang-element"></a></li>
+                <li class="body__headerResponsive-nav--one-ul--one-li--four body__headerResponsive-nav-ul-li"><a href="./src/boat-trip.html"class="lang-element"></a></li>
+                <li class="body__headerResponsive-nav--one-ul--one-li--five body__headerResponsive-nav-ul-li"><a href="./src/contact.html" class="lang-element"></a></li>
+                <li style="display: none;">
+                    <div class="language-switch">
+                        <select id="language-responsive">
+                            <option value="en">English</option>
+                            <option value="fr">Français</option>
+                            <option value="es">Español</option>
+                        </select>
+                    </div>
+                </li>
+            </ul>
+        </nav>
+    </header> 
+    <main class="body__main">
+        <section class="body__main-section--one body__main-section">
+            <div class="body__main-section--one-div--one body__main-section-div">
+                <h1 class="body__main-section--one-div--one-h1--one body__main-section-div-h1 lang-element"></h1>
+                <h2 class="body__main-section--one-div--one-h2--one body__main-section-div-h2 lang-element"></h2>
+                <button class="body__main-section--one-div--one-button--one body__main-section-div-button">
+                    <a class="body__main-section--one-div--one-button--one-a--one body__main-section-div-button-a lang-element" href="./src/book.html">
+                    </a>
+                </button>
+            </div>
+        </section>
+        <div class="body__main-div--one body__main-div waves-container">
+            <div class="body__main-div--one-div--one body__main-div-div wave-acceso-2"></div>
+            <div class="body__main-div--one-div--two body__main-div-div wave-acceso-0"></div>
+            <div class="body__main-div--one-div--three body__main-div-div wave-acceso-1"></div>
+        </div>
+        <section class="body__main-section--two body__main-section">
+            <div class="body__main-section--two-div--one body__main-section-div">
+                <div class="body__main-section--two-div--one-div--one body__main-section-div-div">
+                    <h2 class="body__main-section--two-div--one-div--one-h2--one body__main-section-div-div-h2 lang-element"></h2>
+                </div>
+                <div class="body__main-section--two-div--one-div--two body__main-section-div-div">
+                    <article class="body__main-section--two-div--one-div--two--article--one body__main-section-div-div-article">
+                        <div  class="body__main-section--two-div--one-div--two--article--one-div--one body__main-section-div-div-article-div">
+                            <div class="body__main-section--two-div--one-div--two--article--one-div--one-div--one body__main-section-div-div-article-div-div">
+                                <i class="body__main-section--two-div--one-div--two--article--one-div--one-div--one-i--one body__main-section-div-div-article-div-div-i"></i>
+                                <span class="body__main-section--two-div--one-div--two--article--one-div--one-div--one-span--one body__main-section-div-div-article-div-div-span lang-element">
+                                </span>
+                            </div>
+                            <div class="body__main-section--two-div--one-div--two--article--one-div--one-div--two body__main-section-div-div-article-div-div">
+                                <span class="body__main-section--two-div--one-div--two--article--one-div--one-div--two-span--one body__main-section-div-div-article-div-div-span lang-element"></span>
+                                <span class="body__main-section--two-div--one-div--two--article--one-div--one-div--two-span--two body__main-section-div-div-article-div-div-span lang-element"></span>
+                            </div>
+                            <img  class="body__main-section--two-div--one-div--two--article--one-div--one-img--one body__main-section-div-div-article-div-img" src="./public/img/snorkel_2.png" alt="" />
+                        </div>
+                        <div  class="body__main-section--two-div--one-div--two--article--one-div--two body__main-section-div-div-article-div">
+                            <h3 class="body__main-section--two-div--one-div--two--article--one-div--two-h3--one body__main-section-div-div-article-div-h3">
+                                <a class="body__main-section--two-div--one-div--two--article--one-div--two-h3--one-a--one body__main-section-div-div-article-div-h3-a lang-element" href="./src/snorkel-trip.html"></a>
+                            </h3>
+                            <p class="body__main-section--two-div--one-div--two--article--one-div--two-p--one body__main-section-div-div-article-div-div lang-element">
+                            </p>
+                            <div class="body__main-section--two-div--one-div--two--article--one-div--two-div--one body__main-section-div-div-article-div-div">
+                                <button class="body__main-section--two-div--one-div--two--article--one-div--two-div--one-button--one body__main-section-div-div-article-div-div-button">
+                                    <a class="body__main-section--two-div--one-div--two--article--one-div--two-div--one-button--one-a--one body__main-section-div-div-article-div-div-button-a lang-element" href="./src/boat-trip.html">
+                                    </a>
+                                </button>
+                                <button class="body__main-section--two-div--one-div--two--article--one-div--two-div--one-button--two body__main-section-div-div-article-div-div-button">
+                                    <a class="body__main-section--two-div--one-div--two--article--one-div--two-div--one-button--two-a--one body__main-section-div-div-article-div-div-button-a lang-element" href="./src/book.html">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="body__main-section--two-div--one-div--two--article--two body__main-section-div-div-article">
+                        <div class="body__main-section--two-div--one-div--two--article--two-div--one body__main-section-div-div-article-div">
+                            <div class="body__main-section--two-div--one-div--two--article--two-div--one-div--one body__main-section-div-div-article-div-div">
+                                <i class="body__main-section--two-div--one-div--two--article--two-div--one-div--one-i--one body__main-section-div-div-article-div-div-i"></i>
+                                <span class="body__main-section--two-div--one-div--two--article--two-div--one-div--one-span--one body__main-section-div-div-article-div-div-span lang-element"></span>
+                            </div>
+                            <div class="body__main-section--two-div--one-div--two--article--two-div--one-div--two body__main-section-div-div-article-div-div">
+                                <span class="body__main-section--two-div--one-div--two--article--two-div--one-div--two-span--one body__main-section-div-div-article-div-div-span lang-element"></span>
+                                <span class="body__main-section--two-div--one-div--two--article--two-div--one-div--two-span--two body__main-section-div-div-article-div-div-span lang-element"></span>
+                            </div>
+                            <img class="body__main-section--two-div--one-div--two--article--two-div--one-img--one body__main-section-div-div-article-div-img" src="./public/img/diving_2.png" alt="">
+                        </div>
+                        <div class="body__main-section--two-div--one-div--two--article--two-div--two body__main-section-div-div-article-div">
+                            <h3 class="body__main-section--two-div--one-div--two--article--two-div--two-h3--one body__main-section-div-div-article-div-h3">
+                                <a class="body__main-section--two-div--one-div--two--article--two-div--two-h3--one-a--one body__main-section-div-div-article-div-h3-a lang-element" href=""></a>
+                            </h3>
+                            <p class="body__main-section--two-div--one-div--two--article--two-div--two-p--one body__main-section-div-div-article-div-p lang-element">
+                            </p>
+                            <div class="body__main-section--two-div--one-div--two--article--two-div--two-div--one body__main-section-div-div-article-div-div">
+                                <button class="body__main-section--two-div--one-div--two--article--two-div--two-div--one-button--one body__main-section-div-div-article-div-div-button">
+                                    <a class="body__main-section--two-div--one-div--two--article--two-div--two-div--one-button--one-a--one body__main-section-div-div-article-div-div-button-a lang-element" href="./src/diving-trip.html">
+                                    </a>
+                                </button>
+                                <button class="body__main-section--two-div--one-div--two--article--two-div--two-div--one-button--two body__main-section-div-div-article-div-div-button">
+                                    <a class="body__main-section--two-div--one-div--two--article--two-div--two-div--one-button--two-a--one body__main-section-div-div-article-div-div-button-a lang-element" href="./src/book.html">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                    <article class="body__main-section--two-div--one-div--two--article--three body__main-section-div-div-article">
+                        <div class="body__main-section--two-div--one-div--two--article--three-div--one body__main-section-div-div-article-div">
+                            <div class="body__main-section--two-div--one-div--two--article--three-div--one-div--one body__main-section-div-div-article-div-div">
+                                <i class="body__main-section--two-div--one-div--two--article--three-div--one-div--one-i--one body__main-section-div-div-article-div-div-i"></i>
+                                <span class="body__main-section--two-div--one-div--two--article--three-div--one-div--one-span--one body__main-section-div-div-article-div-div-span lang-element"></span>
+                            </div>
+                            <div class="body__main-section--two-div--one-div--two--article--three-div--one-div--two body__main-section-div-div-article-div-div">
+                                <span class="body__main-section--two-div--one-div--two--article--three-div--one-div--two-span--one body__main-section-div-div-article-div-div-span lang-element"></span>
+                                <span class="body__main-section--two-div--one-div--two--article--three-div--one-div--two-span--two body__main-section-div-div-article-div-div-span lang-element"></span>
+                            </div>
+                            <img class="body__main-section--two-div--one-div--two--article--three-div--one-img--one body__main-section-div-div-article-div-img" src="./public/img/boat_2.png" alt="">
+                        </div>
+                        <div class="body__main-section--two-div--one-div--two--article--three-div--two body__main-section-div-div-article-div">
+                            <h3 class="body__main-section--two-div--one-div--two--article--three-div--two-h3--one body__main-section-div-div-article-div-h3">
+                                <a class="body__main-section--two-div--one-div--two--article--three-div--two-h3--one-a--one body__main-section-div-div-article-div-h3-a lang-element" href=""></a>
+                            </h3>
+                            <p class="body__main-section--two-div--one-div--two--article--three-div--two-p--one body__main-section-div-div-article-div-p lang-element">
+                            </p>
+                            <div class="body__main-section--two-div--one-div--two--article--three-div--two-div--one body__main-section-div-div-article-div-div">
+                                <button class="body__main-section--two-div--one-div--two--article--three-div--two-div--one-button--one body__main-section-div-div-article-div-div-button">
+                                    <a class="body__main-section--two-div--one-div--two--article--three-div--two-div--one-button--one-a--one body__main-section-div-div-article-div-div-button-a lang-element" href="./src/boat-trip.html">
+                                    </a>
+                                </button>
+                                <button class="body__main-section--two-div--one-div--two--article--three-div--two-div--one-button--two body__main-section-div-div-article-div-div-button">
+                                    <a class="body__main-section--two-div--one-div--two--article--three-div--two-div--one-button--two-a--one body__main-section-div-div-article-div-div-button-a lang-element" href="./src/book.html">
+                                    </a>
+                                </button>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>   
+        <section class="body__main-section--three body__main-section">     
+            <div class="body__main-section--three-div--one body__main-section-div">
+                <div class="body__main-section--three-div--one-div--one body__main-section-div-div">
+                    <div class="body__main-section--three-div--one-div--one-div--one body__main-section-div-div-div">
+                        <img class="body__main-section--three-div--one-div--one-div--one-img--one body__main-section-div-div-div-img" src="./public/img/galeria1.png" alt="">
+                        <img class="body__main-section--three-div--one-div--one-div--one-img--two body__main-section-div-div-div-img" src="./public/img/galeria2.png" alt="">
+                        <img class="body__main-section--three-div--one-div--one-div--one-img--three body__main-section-div-div-div-img" src="./public/img/galeria3.png" alt="">
+                        <img class="body__main-section--three-div--one-div--one-div--one-img--four body__main-section-div-div-div-img" src="./public/img/galeria4.png" alt="">
+                        <img class="body__main-section--three-div--one-div--one-div--one-img--five body__main-section-div-div-div-img" src="./public/img/galeria5.png" alt="">
+                        <img class="body__main-section--three-div--one-div--one-div--one-img--six body__main-section-div-div-div-img" src="./public/img/galeria1.png" alt="">
+                    </div>
+                </div>
+                <div class="body__main-section--three-div--one-div--two body__main-section-div-div">
+                    <h3 class="body__main-section--three-div--one-div--two-h3--one body__main-section-div-div-h3 lang-element"></h3>
+                    <p class="body__main-section--three-div--one-div--two-p--one body__main-section-div-div-p lang-element">
+                    </p>
+                    <br/>
+                    <p class="body__main-section--three-div--one-div--two-p-two body__main-section-div-div-p lang-element">
+                    </p>
+                    <br/>
+                    <p class="body__main-section--three-div--one-div--two-p-three body__main-section-div-div-p lang-element">
+                    </p>
+                    <br/>
+                    <p class="body__main-section--three-div--one-div--two-p-four body__main-section-div-div-p lang-element">
+                    </p>
+                    <p class="body__main-section--three-div--one-div--two-p-five body__main-section-div-div-p lang-element">
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="body__footer">
+        <div class="body__footer-div--one body__footer-div">
+            <ul class="body__footer-div--one-ul--one body__footer-div-ul">
+                <li class="body__footer-div--one-ul--one-li--one body__footer-div-ul-li">
+                    <a class="body__footer-div--one-ul--one-li--one-a--one body__footer-div-ul-li-a" href="">
+                        <i class="body__footer-div--one-ul--one-li--one-a--one-i--one  body__footer-div-ul-li-a-i fab fa-instagram fa-2x"></i>
+                    </a>
+                </li>
+                <li class="body__footer-div--one-ul--one-li--two  body__footer-div-ul-li">
+                    <a class="body__footer-div--one-ul--one-li--two-a--one  body__footer-div-ul-li-a" href="">
+                        <i class="body__footer-div--one-ul--one-li--two-a--one-i--one  body__footer-div-ul-li-a-i fa-brands fa-tiktok"></i>
+                    </a>
+                </li>
+                <li class="body__footer-div--one-ul--one-li--three  body__footer-div-ul-li">
+                    <a class="body__footer-div--one-ul--one-li--three-a--one  body__footer-div-ul-li-a" href="">
+                        <i class="body__footer-div--one-ul--one-li--three-a--one-i--one  body__footer-div-ul-li-a-i fa-brands fa-facebook"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="body__footer-div--two body__footer-div" id="wago">
+            <p class="body__footer-div--two-p--one body__footer-div-p" >
+                <a class="body__footer-div--two-p--one-a--one body__footer-div-p-a lang-element" href=""></a>
+            </p>
+        </div>
+        <p class="body__footer-p--one body__footer-p lang-element">&copy;</p>
+    </footer>
+    <script src="./src/utils/languageIndex.js"></script>
+    <script src="./src/utils/languageIndexResponsive.js"></script>
+    <script src="./src/utils/goto.js"></script>
+    <script src="./src/helpers/show-menu.js"></script>
+    <script src="./src/utils/navResponsive.js"></script>
+</body>
+</html>

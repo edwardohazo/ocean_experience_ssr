@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../assets/public/css/styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.1/flowbite.min.css" rel="stylesheet" />
+    <link href="../assets/public/css/more_css/book.css" rel="stylesheet" />
+    <link href="../assets/public/css/book.css" rel="stylesheet" />
+    <link href="../assets/public/css/more_css/payment.css" rel="stylesheet" />
+    <title><%= title %></title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" src="<%= logoSrc %>" alt="<%= logoAlt %>">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <% navLinks.forEach(link => { %>
+                    <li>
+                        <a href="<%= link.href %>"><%= link.text %></a>
+                    </li>
+                <% }); %>
+            </ul>
+        </nav>
+
+        <button class="burger" id="burgerMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </header>
+
+    <!-- Fullscreen Navigation for Mobile -->
+    <nav class="mobile-nav" id="navMenu">
+        <button class="close" id="closeMenu">&times;</button>
+        <% navLinks.forEach(link => { %>
+            <a href="<%= link.href %>"><%= link.text %></a>
+        <% }); %>
+    </nav>
+    
+    <main class="body__main">
+        <div class="body__main-div--one body__main-div reservation">
+            <div class="body__main-div--one-div--one body__main-div-div payment">
+            </div>
+
+            <!-- Banner -->
+            <section class="banner" id="home">
+                <span class="txt-rotate" data-rotate='["This website is for testing and portfolio purposes only. Payments are processed in PayPal&apos;s test mode and are not real transactions.", "Eduardo Jasso", "Web Developer"]'>
+                    <span class="wrap" style="color: #000"></span>
+                </span>
+            </section>
+            <style>
+                .banner {
+                    padding: 50px 0;
+                    background: #f5f5f5;
+                }
+            </style>
+            <script>
+                document.addEventListener("DOMContentLoaded", () => {
+                const txtRotateElement = document.querySelector(".txt-rotate");
+                const toRotate = JSON.parse(txtRotateElement.getAttribute("data-rotate"));
+                const wrapElement = txtRotateElement.querySelector(".wrap");
+                const period = 2000;
+                let loopNum = 0;
+                let isDeleting = false;
+                let text = "";
+  
+                function tick() {
+                  const i = loopNum % toRotate.length;
+                  const fullText = toRotate[i];
+  
+                if (isDeleting) {
+                  text = fullText.substring(0, text.length - 1);
+                } else {
+                  text = fullText.substring(0, text.length + 1);
+                }
+  
+                wrapElement.textContent = text;
+  
+                let delta = isDeleting ? 100 : 200;
+  
+                if (!isDeleting && text === fullText) {
+                  delta = period;
+                  isDeleting = true;
+                } else if (isDeleting && text === "") {
+                  isDeleting = false;
+                  loopNum++;
+                  delta = 500;
+                }
+  
+                setTimeout(() => tick(), delta);
+                }
+  
+                tick();
+                });
+            </script>   
+
+        </div>
+    </main>
+    
+    <!-- Footer Content -->
+    <footer class="footer">
+        <div class="footer__social-links">
+            <ul class="footer__social-list">
+                <% footer.socialLinks.forEach(social => { %>
+                    <li class="footer__social-item">
+                        <a href="<%= social.href %>" class="footer__social-link">
+                            <i class="footer__social-icon <%= social.icon %>"></i>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+        
+        <div class="footer__info">
+            <p class="footer__info-text"><%= footer.infoText %></p>
+        </div>
+    
+        <div class="footer__copyright">
+            <p><%= footer.copyright %></p>
+        </div>
+    </footer>
+    
+    <!-- Scripts -->
+    <script src="<%= scripts.burgerMenu %>"></script>
+    <script src="<%= scripts.goto %>"></script>
+    <script src="<%= scripts.paymentScreen %>" type="module"></script>
+</body>
+</html>

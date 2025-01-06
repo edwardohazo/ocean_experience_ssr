@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<%= cssPath %>">
+    <link rel="stylesheet" href="<%= wavesCssPath %>">
+    <link rel="alternate" href="<%= langUrls.en %>" hreflang="en" />
+    <link rel="alternate" href="<%= langUrls.es %>" hreflang="es" />
+    <link rel="alternate" href="<%= langUrls.fr %>" hreflang="fr" />
+    <link href="<%= fontAwesomePath %>" rel="stylesheet" />
+    <title><%= title %> | <%= pageTitle %></title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" src="<%= logoPath %>" alt="Logo">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <% navItems.forEach(function(item) { %>
+                    <li>
+                        <a href="<%= item.href %>"><%= item.text %></a>
+                    </li>
+                <% }); %>
+            </ul>
+        </nav>
+
+        <button class="burger" id="burgerMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </header>
+
+    <!-- Fullscreen Navigation for Mobile -->
+    <nav class="mobile-nav" id="navMenu">
+        <button class="close" id="closeMenu">&times;</button>
+        <% navItems.forEach(function(item) { %>
+            <a href="<%= item.href %>"><%= item.text %></a>
+        <% }); %>
+    </nav>
+
+    <!-- Main Content -->
+    <main>
+
+        <!-- First main section -->
+        <section class="main-section-one">
+            <h1><%= mainSection.title %></h1>
+            <h2><%= mainSection.subtitle %></h2>
+            <button class="contact-us-button">
+                <a href="#index-contact-form"><%= mainSection.contactButton %></a>
+            </button>
+        </section>
+
+        <!-- Waves -->
+        <div class="body__main-div--one body__main-div waves-container">
+            <% waves.forEach(function(wave) { %>
+                <div class="<%= wave.class %>"></div>
+            <% }); %>
+        </div>
+
+        <section class="cards-section">
+            <% cards.forEach(function(card) { %>
+                <div class="card">
+                    <img src="<%= card.imagePath %>" alt="<%= card.imageAlt %>">
+                    <div class="content">
+                        <p><%= card.content %></p>
+                        <a href="<%= card.link %>" class="btn"><%= card.buttonText %></a>
+                    </div>
+                </div>
+            <% }); %>
+        </section>
+
+        <section class="about-section">
+            <div class="about-section-col about-section-col-one">
+                <% aboutImages.forEach(function(image) { %>
+                    <img src="<%= image %>" alt="Gallery Image">
+                <% }); %>
+            </div>
+
+            <div class="about-section-col about-section-col-two">
+                <h1><%= aboutSection.title %></h1>
+                <p><%= aboutSection.description1 %></p>
+                <p><%= aboutSection.description2 %></p>
+                <p><%= aboutSection.description3 %></p>
+                <p><%= aboutSection.description4 %></p>
+                <p><%= aboutSection.description5 %></p>
+
+                <!-- Portfolio version button -->
+                <button class="book-button">
+                    <a href="./book">Book</a>
+                </button> 
+            </div>
+
+        </section>
+        
+        <section class="main-section-one-contact" id="index-contact-form">
+            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
+            <script>
+                hbspt.forms.create({
+                    portalId: "<%= hubspot.portalId %>",
+                    formId: "<%= hubspot.formId %>"
+                });
+            </script>
+        </section>
+
+    </main>
+
+    <!-- Footer Content -->
+    <footer class="footer">
+        <div class="footer__social-links">
+            <ul class="footer__social-list">
+                <% footerLinks.social.forEach(function(link) { %>
+                    <li class="footer__social-item">
+                        <a href="<%= link.url %>" class="footer__social-link">
+                            <i class="footer__social-icon <%= link.iconClass %>"></i>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+        
+        <div class="footer__info">
+            <p class="footer__info-text"><%= footerInfo.text %></p>
+        </div>
+    
+        <div class="footer__copyright">
+            <p>&copy; <%= currentYear %> <%= footerInfo.companyName %>. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Javascript -->
+    <script src="<%= scriptPath %>"></script> 
+    <script src="<%= burgerMenuScript %>"></script>
+    <script src="<%= gotoScript %>"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+

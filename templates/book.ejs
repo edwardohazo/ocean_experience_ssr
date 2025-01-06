@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<%= styles.main %>">
+    <link rel="stylesheet" href="<%= styles.waves %>">
+    <link rel="stylesheet" href="<%= styles.book %>">
+    <link rel="stylesheet" href="<%= styles.reservations %>">
+    <link href="<%= styles.fontAwesome %>" rel="stylesheet" />
+    <title><%= page.title %></title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" src="<%= logo.src %>" alt="<%= logo.alt %>">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <% navigation.forEach(nav => { %>
+                <li>
+                    <a href="<%= nav.href %>"><%= nav.label %></a>
+                </li>
+                <% }) %>
+            </ul>
+        </nav>
+
+        <button class="burger" id="burgerMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" stroke="#000" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="navMenu">
+        <button class="close" id="closeMenu">&times;</button>
+        <% navigation.forEach(nav => { %>
+        <a href="<%= nav.href %>"><%= nav.label %></a>
+        <% }) %>
+    </nav>
+
+    <!-- Main Content -->
+
+    <main class="body__main body__mainBook">
+
+        <div class="body__main-div--one body__main-div"></div>
+        <div class="body__main-div--two body__main-div">
+
+            <!-- CALENDAR -->
+            <h1 class="body__main-div--two-h1---one body__main-div-h1 lang-element"><%= bookingCalendar.title %></h1>
+            <h4 class="body__main-div--two-h4--one body__main-div-div-h4" id="current-month"><%= bookingCalendar.currentMonth %></h4>
+            <div class="body__main-div--two-div--one body__main-div-div calendar" id="calendar"></div>
+            <div class="body__main-div--two-div--two">
+                <% bookingCalendar.days.forEach(function(day) { %>
+                    <div class="body__main-div--two-div--two-div--<%= day.class %>">
+                        <img class="body__main-div--two-div--two-div--<%= day.imgClass %>" src="<%= day.imgSrc %>">
+                        <div class="body__main-div--two-div--two-div--<%= day.textClass %>">
+                            <p class="body__main-div--two-div--two-div--<%= day.textClass %>-p--one lang-element"><%= day.text %></p>
+                        </div>
+                    </div>
+                <% }) %>
+            </div><br><br>
+            <div class="body__main-div--two-div--three body__main-div-div pagination">
+                <button class="body__main-div--two-div--three-button--one body__main-div-div-button lang-element" id="prev-month"><%= bookingCalendar.prevMonthText %></button>
+                <button class="body__main-div--two-div--three-button--two body__main-div-div-button lang-element" id="next-month"><%= bookingCalendar.nextMonthText %></button>
+            </div><br><br>
+
+            <!-- FORM -->
+            <h2 class="lang-element"><%= bookingForm.heading %></h2><br><br>
+            <form class="body__main-div--two-form--one" id="registrationForm">
+                <label class="lang-element" for="username"><%= bookingForm.fields.username.label %>:</label><br><br>
+                <input type="text" id="username" name="username" required><br><br>   
+                <label class="lang-element" for="service"><%= bookingForm.fields.service.label %>:</label><br><br>
+                <select class="body__main-div--two-form--one-select--One" id="service" name="service">
+                    <% bookingForm.services.forEach(function(service) { %>
+                        <option class="lang-element" value="<%= service.value %>"><%= service.label %></option>
+                    <% }) %>
+                </select><br><br>     
+                <label class="lang-element" for="price"><%= bookingForm.fields.price.label %>:</label><br><br>
+                <input class="body__main-div--two-form--one-input--two price" type="text" id="price" name="price" readonly><br><br>          
+                <label class="lang-element" for="participants"><%= bookingForm.fields.participants.label %>:</label><br><br>
+                <select class="body__main-div--two-form--one-select--two qtyParticipants" id="participants" name="participants">
+                    <% bookingForm.participantOptions.forEach(function(option) { %>
+                        <option class="lang-element" value="<%= option.value %>"><%= option.label %></option>
+                    <% }) %>
+                </select><br><br>
+                <p class="body__main-div--two-form--one-p--one total-text"><%= bookingForm.totalText %></p><br>
+                <input class="body__main-div--two-form--one-input--three total" id="total" name="totalPrice" hidden>
+                <input class="body__main-div--two-form--one-input--four tax" id="tax" name="taxPrice" hidden>
+                <input class="body__main-div--two-form--one-input--five date" type="date" id="date" name="date" hidden>
+                <input class="submit-button" type="submit" value="<%= bookingForm.submitText %>"><br><br><br><br>
+                <div class="body__main-div--two-form--one-div--one body__main-div-form-div" hidden><%= bookingForm.errorMessage %></div><br><br>
+            </form>
+
+
+
+        </div>
+        <div class="overlay" id="loading-overlay"><%= overlays.loading %></div>
+        <div class="overlay" id="message-overlay"><%= overlays.message %></div>
+    </main> 
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer__social-links">
+            <ul class="footer__social-list">
+                <% socialLinks.forEach(link => { %>
+                <li class="footer__social-item">
+                    <a href="<%= link.href %>" class="footer__social-link">
+                        <i class="<%= link.iconClass %>"></i>
+                    </a>
+                </li>
+                <% }) %>
+            </ul>
+        </div>
+        
+        <div class="footer__info">
+            <p class="footer__info-text"><%= footerInfo %></p>
+        </div>
+    
+        <div class="footer__copyright">
+            <p>&copy; <%= footerCopyright %></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="<%= scripts.script %>"></script>
+    <script src="<%= scripts.burgerMenu %>"></script>
+    <script src="<%= scripts.goto %>"></script>
+    <script src="<%= scripts.hidde %>"></script>
+    <script src="<%= scripts.calendar %>" type="module"></script>
+    <script src="<%= scripts.bookingForm %>"></script>
+</body>
+</html>

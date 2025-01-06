@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="<%= css.styles %>">
+    <link rel="stylesheet" href="<%= css.waves %>">
+    <link href="<%= css.fontAwesome %>" rel="stylesheet" />
+    <link href="<%= css.flowbite %>" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="<%= css.dayCalendar %>">
+    <link href="<%= css.book %>" rel="stylesheet" />
+    <link href="<%= css.day %>" rel="stylesheet" />
+    <link href="<%= css.navResponsive %>" rel="stylesheet" />
+    <title class="lang-element"><%= page.title %></title>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo-container">
+            <img class="logo-img" src="<%= logo.img %>" alt="<%= logo.alt %>">
+        </div>
+        <nav class="desktop-nav">
+            <ul>
+                <% navigation.links.forEach(link => { %>
+                    <li>
+                        <a href="<%= link.href %>"><%= link.label %></a>
+                    </li>
+                <% }); %>
+            </ul>
+        </nav>
+
+        <button class="burger" id="burgerMenu">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" width="24" height="24">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+        </button>
+    </header>
+
+    <!-- Fullscreen Navigation for Mobile -->
+    <nav class="mobile-nav" id="navMenu">
+        <button class="close" id="closeMenu">&times;</button>
+        <% navigation.links.forEach(link => { %>
+            <a href="<%= link.href %>"><%= link.label %></a>
+        <% }); %>
+    </nav>
+
+    <main class="body__main body__mainBook">
+        <div class="overlay" id="loading-overlay">Loading...</div>
+        <div class="overlay" id="message-overlay"></div>
+        <div class="day-view">
+            <h1 class="lang-element"><%= main.heading %></h1>
+            <div class="shifts-container" id="shifts-container">
+                <!-- JavaScript will populate this area with shifts -->
+            </div>
+            <div class="body__main-div--three-div--two body__main-div--one-div--two body__mainBook-div-div" hidden>
+                <%= main.insufficientSpotsMessage %>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer Content -->
+    <footer class="footer">
+        <div class="footer__social-links">
+            <ul class="footer__social-list">
+                <% footer.socialLinks.forEach(social => { %>
+                    <li class="footer__social-item">
+                        <a href="<%= social.href %>" class="footer__social-link">
+                            <i class="footer__social-icon <%= social.icon %>"></i>
+                        </a>
+                    </li>
+                <% }); %>
+            </ul>
+        </div>
+        
+        <div class="footer__info">
+            <p class="footer__info-text"><%= footer.infoText %></p>
+        </div>
+    
+        <div class="footer__copyright">
+            <p><%= footer.copyright %></p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="<%= scripts.main %>"></script>
+    <script src="<%= scripts.burgerMenu %>"></script>
+    <script src="<%= scripts.goto %>"></script>
+    <script src="<%= scripts.dayCalendar %>" type="module"></script>
+</body>
+</html>

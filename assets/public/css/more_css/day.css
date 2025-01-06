@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+}
+.day-view {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 5%;
+    padding-top: 10vw;
+}
+.day-view h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vw;
+    font-size: 2rem;
+    background-color: #fff;
+    color: #000;
+}
+.shifts-container {
+    display: flex;
+    flex-direction: column;
+}
+.shift {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+    position: relative;
+    border: 1px solid #ddd;
+    padding: 10px;
+}
+.shiftOne {
+    background-color:#ddd;
+    color: #000
+}
+.shiftTwo {
+    background-color:#ffffff;
+    color: #000
+}
+.shift :nth-child(n) {
+    font-size: 4em;
+}
+@keyframes growAndShrink {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.5);
+    }
+}
+.shift :nth-child(2) {
+    animation: growAndShrink 1.5s infinite;
+    font-size: 8rem;
+}
+.all-shifts-left {
+    background-color: rgb(10, 249, 54);
+    color: #fff;
+}
+.many-shifts-left {
+    background-color: #00fffb;
+    color: #fff;
+}
+.some-shifts-left {
+    background-color: #deb30a;
+    color: #fff;
+}
+.few-shifts-left {
+    background-color: rgb(255, 123, 0);
+    color: #fff;
+}
+.sold-out-shift {
+    background-color: #ff0000;
+    color: #fff;
+}
+.body__main-div--one-div--two {
+    position: fixed;
+    top: 40%;
+    left: 50%; 
+    transform: translateX(-50%);
+    padding: 5% 10%;
+    transition: all 5s ease-out;
+    background-color: #000;
+    color: #fff;
+}
+
+/* Movile Landscape Rules */
+@media only screen and  (max-width: 700px) {
+    /* All Resolutions General Rules */
+    /* General Styles | Unspecific Selectors */
+    /* General Styles Combined | Unspecific Selectors */
+    /* General Styles Combined | Specific Selectors */
+
+        /* Position */
+    
+        
+        /* Size */
+    
+        
+        /* Animations */
+    
+        
+        /* Colors and Fonts */
+    
+        
+    /* Specific Selectors */
+        
+    /* Above Header */
+        
+    /* header */
+    /* Main */
+    .day-view {
+        padding: 0;
+    }
+    .day-view h1 {
+        height: 10vw;
+        font-size: 1rem;
+        background-color: #fff;
+        color: #000;
+    }
+    /* Footer */
+    }
