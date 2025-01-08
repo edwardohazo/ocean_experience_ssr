@@ -1,25 +1,25 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="<%= lang %>">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../public/css/styles.css">
-    <link rel="stylesheet" href="../public/css/waves.css">
-    <link rel="stylesheet" href="../public/css/service-description.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="<%= cssPaths.styles %>">
+    <link rel="stylesheet" href="<%= cssPaths.waves %>">
+    <link rel="stylesheet" href="<%= cssPaths.serviceDescription %>">
+    <link href="<%= cssPaths.fontAwesome %>" rel="stylesheet" />
     <title><%= title %></title>
 </head>
 <body>
     <!-- Header -->
     <header>
         <div class="logo-container">
-            <img class="logo-img" src="<%= logo.src %>" alt="<%= logo.alt %>">
+            <img class="logo-img" src="<%= imgPaths.logo %>" alt="logo">
         </div>
         <nav class="desktop-nav">
             <ul>
-                <% navLinks.forEach(link => { %>
+                <% navItems.forEach(function(item) { %>
                     <li>
-                        <a href="<%= link.href %>"><%= link.text %></a>
+                        <a href="<%= item.href %>"><%= item.text %></a>
                     </li>
                 <% }); %>
             </ul>
@@ -35,33 +35,35 @@
     <!-- Fullscreen Navigation for Mobile -->
     <nav class="mobile-nav" id="navMenu">
         <button class="close" id="closeMenu">&times;</button>
-        <% navLinks.forEach(link => { %>
-            <a href="<%= link.href %>"><%= link.text %></a>
+        <% navItems.forEach(function(item) { %>
+            <a href="<%= item.href %>"><%= item.text %></a>
         <% }); %>
     </nav>
 
     <!-- Main Content -->
     <main>
-        <!-- Boat Trip Section -->
+
+        <!-- boat Section -->
         <section class="main-section-one main-section-one-boat">
-            <h1><%= mainSection.title %></h1>
-            <h2><%= mainSection.subtitle %></h2>
+            <h1><%= boatSection.title %></h1>
+            <h2><%= boatSection.subtitle %></h2>
             <button class="contact-us-button">
-                <a href="#boat-contact-form"><%= mainSection.cta.text %></a>
+                <a href="<%= boatSection.contactLink %>"><%= boatSection.contactButton %></a>
             </button>
         </section>
 
-        <!-- Boat Trip Details Section -->
+        <!-- boat Details Section -->
         <section class="all-details-section">
             <div class="container">
                 <div class="section-header">
-                    <h2><%= details.title %></h2>
-                    <p><%= details.description %></p>
+                    <h2><%= detailsSection.title %></h2>
+                    <p><%= detailsSection.description %></p>
                 </div>
+
                 <div class="features-grid">
-                    <% details.features.forEach(feature => { %>
+                    <% detailsSection.features.forEach(function(feature) { %>
                         <div class="feature-item">
-                            <img src="<%= feature.img.src %>" alt="<%= feature.img.alt %>">
+                            <img src="<%= feature.imgSrc %>" alt="<%= feature.imgAlt %>">
                             <h4><%= feature.title %></h4>
                             <p><%= feature.description %></p>
                         </div>
@@ -69,44 +71,31 @@
                 </div>
             </div>
         </section>
-
-        <section class="main-section-one-contact" id="boat-contact-form">
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-            <script>
-                hbspt.forms.create({
-                    portalId: "<%= hubspot.portalId %>",
-                    formId: "<%= hubspot.formId %>"
-                });
-            </script>
-        </section>
-
-        
     </main>
-    
+
     <!-- Footer Content -->
     <footer class="footer">
         <div class="footer__social-links">
             <ul class="footer__social-list">
-                <% footer.socialLinks.forEach(link => { %>
+                <% socialLinks.forEach(function(link) { %>
                     <li class="footer__social-item">
-                        <a href="<%= link.href %>" class="footer__social-link">
-                            <i class="<%= link.icon %>"></i>
+                        <a href="<%= link.url %>" class="footer__social-link">
+                            <i class="footer__social-icon <%= link.iconClass %>"></i>
                         </a>
                     </li>
                 <% }); %>
             </ul>
         </div>
         <div class="footer__info">
-            <p class="footer__info-text"><%= footer.infoText %></p>
+            <p class="footer__info-text"><%= footerInfo.text %></p>
         </div>
         <div class="footer__copyright">
-            <p><%= footer.copyright %></p>
+            <p>&copy; <%= currentYear %> <%= footerInfo.companyName %>. All rights reserved.</p>
         </div>
     </footer>
 
-    <!-- Javascript -->
-    <script src="../src/scripts/script.js"></script>
-    <script src="../src/scripts/burguerMenu.js"></script>
-    <script src="./utils/goto.js"></script>
+    <script src="<%= scriptPaths.mainScript %>"></script>
+    <script src="<%= scriptPaths.burgerMenuScript %>"></script>
+    <script src="<%= scriptPaths.gotoScript %>"></script>
 </body>
 </html>

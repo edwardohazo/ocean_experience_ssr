@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="<%= cssPaths.styles %>">
+    <link rel="stylesheet" href="<%= cssPaths.waves %>">
     <link rel="stylesheet" href="<%= cssPaths.serviceDescription %>">
     <link href="<%= cssPaths.fontAwesome %>" rel="stylesheet" />
     <title><%= title %></title>
@@ -47,7 +48,7 @@
             <h1><%= divingSection.title %></h1>
             <h2><%= divingSection.subtitle %></h2>
             <button class="contact-us-button">
-                <a href="#diving-contact-form"><%= divingSection.contactButton %></a>
+                <a href="<%= divingSection.contactLink %>"><%= divingSection.contactButton %></a>
             </button>
         </section>
 
@@ -70,17 +71,6 @@
                 </div>
             </div>
         </section>
-
-        <section class="main-section-one-contact" id="diving-contact-form">
-            <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/embed/v2.js"></script>
-            <script>
-                hbspt.forms.create({
-                    portalId: "<%= hubspot.portalId %>",
-                    formId: "<%= hubspot.formId %>"
-                });
-            </script>
-        </section>
-
     </main>
 
     <!-- Footer Content -->

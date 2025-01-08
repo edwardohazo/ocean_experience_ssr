@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", async function () {
         });
     })
     .catch((err) => {
-        showMessage();
+        showMessage(err.message);
         console.log(err);
     });
     

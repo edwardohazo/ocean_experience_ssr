@@ -22,7 +22,8 @@
         "mainSection": {
           "title": "Ocean Experience",
           "subtitle": "Aquatic Adventure Enterprise",
-          "contactButton": "Contact Us"
+          "contactButton": "Contact Us",
+          "contactLink": "#index-contact-form"
         },
         "waves": [
           { "class": "body__main-div--one-div--one body__main-div-div wave-acceso-2" },
@@ -111,65 +112,61 @@
           "title": "Diving Adventures",
           "subtitle": "Explore the Wonders Beneath the Waves",
           "contactButton": "Contact Us",
-          "contactLink": "#"
+          "contactLink": "./contact"
         },
         "detailsSection": {
           "title": "Dive Into the Extraordinary",
           "description": "Join us for premium diving trips that offer a seamless, unforgettable journey to uncover the mysteries of the deep sea.",
           "features": [
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-1.png",
               "imgAlt": "Expert Guides",
               "title": "1. Expert Guides and Instructors",
               "description": "Our guides enrich your experience with insights about marine life and ecosystems."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-2.png",
               "imgAlt": "Tailored Experiences",
               "title": "2. Tailored Experiences",
               "description": "We customize trips to match your preferences for a unique diving adventure."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-3.png",
               "imgAlt": "Sunset Dives",
               "title": "3. Tranquil Sunset Dives",
               "description": "Enjoy romantic sunset dives with breathtaking views and serene waters."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-4.png",
               "imgAlt": "Underwater Expeditions",
               "title": "4. Thrilling Underwater Expeditions",
               "description": "Explore diverse marine life and captivating underwater spots."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-5.png",
               "imgAlt": "High-Quality Gear",
               "title": "5. High-Quality Diving Gear",
               "description": "We provide top-notch equipment to ensure your safety and comfort."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-6.png",
               "imgAlt": "Safety",
               "title": "6. Safety First",
               "description": "Our crew prioritizes safety with extensive training and emergency readiness."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-7.png",
               "imgAlt": "Photography",
               "title": "7. Capture Unforgettable Moments",
               "description": "Bring your camera to capture the mesmerizing underwater world."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-8.png",
               "imgAlt": "Environmental Conservation",
               "title": "8. Environmental Conservation",
               "description": "We practice responsible diving to preserve the delicate marine ecosystem."
             }
           ]
-        },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
         },
         "socialLinks": [
           { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
@@ -188,7 +185,7 @@
         }
       },
       "snorkel": {
-        "title": "Ocean Experience | Snorkeling",
+        "title": "Ocean Experience | Snorkel",
         "lang": "en",
         "cssPaths": {
           "styles": "../assets/public/css/styles.css",
@@ -207,68 +204,64 @@
           { "href": "./contact", "text": "Contact" }
         ],
         "snorkelSection": {
-          "title": "Snorkeling Adventures",
-          "subtitle": "Discover the Vibrant Marine World",
+          "title": "Snorkel Adventures",
+          "subtitle": "Discover the Beauty Beneath the Surface",
           "contactButton": "Contact Us",
-          "contactLink": "#"
+          "contactLink": "./contact"
         },
         "detailsSection": {
-          "title": "Dive Into the Snorkeling Experience",
-          "description": "Embark on an unforgettable snorkeling journey where you'll encounter colorful coral reefs and diverse marine life.",
+          "title": "Explore Crystal Clear Waters",
+          "description": "Embark on an unforgettable snorkeling journey, exploring vibrant coral reefs and colorful marine life.",
           "features": [
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Expert Guides",
-              "title": "1. Expert Guides and Instructors",
-              "description": "Our guides provide fascinating insights into marine life, making your snorkeling experience enriching."
+              "imgSrc": "../assets/public/img/snorkel-card-1.png",
+              "imgAlt": "Professional Guides",
+              "title": "1. Professional Guides",
+              "description": "Our expert guides ensure you have a safe and enjoyable snorkeling experience."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Tailored Experiences",
-              "title": "2. Customizable Snorkeling Trips",
-              "description": "We tailor each trip to your preferences, ensuring a perfect snorkeling adventure for you."
+              "imgSrc": "../assets/public/img/snorkel-card-2.png",
+              "imgAlt": "Family-Friendly",
+              "title": "2. Family-Friendly Fun",
+              "description": "Snorkeling is an activity for all ages, perfect for creating lasting memories with loved ones."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Underwater Exploration",
-              "title": "3. Stunning Underwater Views",
-              "description": "Explore vibrant coral reefs and swim with exotic fish in crystal-clear waters."
+              "imgSrc": "../assets/public/img/snorkel-card-3.png",
+              "imgAlt": "Colorful Reefs",
+              "title": "3. Explore Vibrant Coral Reefs",
+              "description": "Swim among breathtaking coral formations teeming with marine life."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Relaxed Environment",
-              "title": "4. Relaxed and Calm Waters",
-              "description": "Our snorkeling trips take you to peaceful spots, perfect for a calming and safe aquatic experience."
+              "imgSrc": "../assets/public/img/snorkel-card-4.png",
+              "imgAlt": "Gear Provided",
+              "title": "4. High-Quality Gear Provided",
+              "description": "We supply premium snorkeling gear for your comfort and safety."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "High-Quality Gear",
-              "title": "5. Premium Snorkeling Gear",
-              "description": "We provide top-quality equipment for a comfortable and safe snorkeling experience."
+              "imgSrc": "../assets/public/img/snorkel-card-5.png",
+              "imgAlt": "Environmental Awareness",
+              "title": "5. Environmental Awareness",
+              "description": "Learn about ocean conservation and responsible snorkeling practices."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Safety First",
-              "title": "6. Safety First",
-              "description": "Your safety is our priority with fully trained guides and careful supervision."
+              "imgSrc": "../assets/public/img/snorkel-card-6.png",
+              "imgAlt": "Relaxation",
+              "title": "6. Relax and Enjoy",
+              "description": "Float in serene waters and immerse yourself in the tranquility of the ocean."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Photography",
-              "title": "7. Capture Your Moments",
-              "description": "Bring your camera to capture the beautiful underwater world and share your memories."
+              "imgSrc": "../assets/public/img/snorkel-card-7.png",
+              "imgAlt": "Photography Moments",
+              "title": "7. Stunning Photography Moments",
+              "description": "Capture the beauty of the underwater world with your camera."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Environmental Conservation",
-              "title": "8. Eco-Friendly Practices",
-              "description": "We follow environmentally conscious practices to protect the fragile marine ecosystem."
+              "imgSrc": "../assets/public/img/snorkel-card-8.png",
+              "imgAlt": "Memorable Adventures",
+              "title": "8. Memorable Adventures",
+              "description": "Create stories to share as you explore the captivating marine ecosystem."
             }
           ]
-        },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
         },
         "socialLinks": [
           { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
@@ -285,84 +278,101 @@
           "burgerMenuScript": "../src/scripts/burguerMenu.js",
           "gotoScript": "./utils/goto.js"
         }
-      },   
+      },
       "boat": {
         "title": "Ocean Experience | Boat Trip",
-        "logo": {
-          "src": "../assets/public/img/logo-ocean-experience.svg",
-          "alt": "Ocean Experience Logo"
+        "lang": "en",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         },
-        "navLinks": [
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
           { "href": "./index", "text": "Home" },
           { "href": "./diving", "text": "Diving" },
           { "href": "./snorkel", "text": "Snorkel" },
-          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./boat", "text": "Boat Trip" },
           { "href": "./contact", "text": "Contact" }
         ],
-        "mainSection": {
-          "title": "Boat Trip Adventures",
-          "subtitle": "Set Sail to Unforgettable Views",
-          "cta": { "href": "#", "text": "Contact Us" }
+        "boatSection": {
+          "title": "Boat Adventures",
+          "subtitle": "Set Sail for Unforgettable Journeys",
+          "contactButton": "Contact Us",
+          "contactLink": "./contact"
         },
-        "details": {
-          "title": "Embark on an Unforgettable Maritime Journey",
-          "description": "Experience the wonders of the open sea with our exceptional boat trips. Let us make your voyage seamless and unforgettable.",
+        "detailsSection": {
+          "title": "Experience the Open Seas",
+          "description": "Embark on an unforgettable boat trip, exploring stunning coastlines and crystal-clear waters while enjoying luxury and adventure.",
           "features": [
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Expert Captain" },
-              "title": "1. Expert Captain and Crew",
-              "description": "Knowledgeable in navigation and safety, our crew provides enriching insights and ensures your journey is smooth and enjoyable."
+              "imgSrc": "../assets/public/img/boat-card-1.png",
+              "imgAlt": "Luxury Vessels",
+              "title": "1. Luxury Vessels",
+              "description": "Travel in style and comfort aboard our modern, well-equipped boats."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Custom Experiences" },
-              "title": "2. Customizable Experiences",
-              "description": "From serene escapes to special occasions, we tailor trips to meet your desires for the perfect maritime adventure."
+              "imgSrc": "../assets/public/img/boat-card-2.png",
+              "imgAlt": "Scenic Views",
+              "title": "2. Scenic Coastal Views",
+              "description": "Capture breathtaking vistas as you cruise along pristine coastlines."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Coastal Cruises" },
-              "title": "3. Scenic Coastal Cruises",
-              "description": "Enjoy breathtaking views of the shorelines as you relax with your favorite beverages in a tranquil setting."
+              "imgSrc": "../assets/public/img/boat-card-3.png",
+              "imgAlt": "Friendly Crew",
+              "title": "3. Friendly and Experienced Crew",
+              "description": "Our professional crew ensures your safety and makes your trip enjoyable."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Nautical Adventures" },
-              "title": "4. Exciting Nautical Adventures",
-              "description": "Explore hidden coves and islands on thrilling journeys guided by our experienced crew."
+              "imgSrc": "../assets/public/img/boat-card-4.png",
+              "imgAlt": "Sunset Cruises",
+              "title": "4. Romantic Sunset Cruises",
+              "description": "End your day with a romantic journey under the golden hues of the setting sun."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Comfortable Boat" },
-              "title": "5. Comfortable Vessel",
-              "description": "Sail in comfort on our well-maintained boat, equipped with all the amenities for a safe and enjoyable trip."
+              "imgSrc": "../assets/public/img/boat-card-5.png",
+              "imgAlt": "Water Activities",
+              "title": "5. Exciting Water Activities",
+              "description": "Enjoy snorkeling, paddleboarding, and other water activities during your trip."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Safety First" },
-              "title": "6. Safety First",
-              "description": "Your safety is our priority, with a trained crew ready to assist and ensure a secure voyage."
+              "imgSrc": "../assets/public/img/boat-card-6.png",
+              "imgAlt": "Private Charters",
+              "title": "6. Private Charters",
+              "description": "Customize your adventure with a private charter tailored to your needs."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Memorable Moments" },
-              "title": "7. Capture Memorable Moments",
-              "description": "Bring your camera to capture stunning scenes, and let our crew help you create memories to cherish forever."
+              "imgSrc": "../assets/public/img/boat-card-7.png",
+              "imgAlt": "Wildlife Encounters",
+              "title": "7. Wildlife Encounters",
+              "description": "Spot dolphins, sea turtles, and other marine life along the way."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Environmental Stewardship" },
-              "title": "8. Environmental Stewardship",
-              "description": "Our boat trips emphasize eco-friendly practices, fostering respect and conservation of the marine environment."
+              "imgSrc": "../assets/public/img/boat-card-8.png",
+              "imgAlt": "Refreshments Onboard",
+              "title": "8. Refreshments Onboard",
+              "description": "Relax with complimentary snacks and beverages during your journey."
             }
           ]
         },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contact us via email or follow us on social media for updates.",
+          "companyName": "Ocean Experience"
         },
-        "footer": {
-          "socialLinks": [
-            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
-            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
-            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
-          ],
-          "infoText": "Contact us via email or follow us on social media for updates.",
-          "copyright": "&copy; 2024 Ocean Experience. All rights reserved."
-        }
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
+        }           
       },
       "contact": {
         "pageTitle": "Ocean Experience | Contact",
@@ -378,9 +388,14 @@
           { "href": "./index", "text": "Home" },
           { "href": "./diving", "text": "Diving" },
           { "href": "./snorkel", "text": "Snorkel" },
-          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./boat", "text": "Boat Trip" },
           { "href": "./contact", "text": "Contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "hubspotForm": {
           "src": "//js.hsforms.net/forms/embed/v2.js",
           "portalId": "47277250",
@@ -418,6 +433,11 @@
           "book": "../assets/public/css/book.css",
           "reservations": "../assets/public/css/more_css/reservations.css",
           "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
         },
         "logo": {
           "src": "../assets/public/img/logo-ocean-experience.svg",
@@ -565,6 +585,11 @@
           "img": "../assets/public/img/logo-ocean-experience.svg",
           "alt": "Ocean Experience Logo"
         },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "navigation": {
           "links": [
             { "href": "./index", "label": "Home" },
@@ -600,11 +625,16 @@
         "logoAlt": "Ocean Experience Logo",
         "navLinks": [
           { "href": "./index", "text": "Home" },
-          { "href": "./diving.html", "text": "Diving" },
-          { "href": "./snorkel.html", "text": "Snorkel" },
-          { "href": "./boat.html", "text": "Boat trip" },
-          { "href": "./contact.html", "text": "Contact" }
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "socialLinks": [
           { "href": "https://instagram.com", "icon": "fab fa-instagram fa-2x" },
           { "href": "https://tiktok.com", "icon": "fa-brands fa-tiktok" },
@@ -632,11 +662,16 @@
         "logoPath": "../public/img/logo-ocean-experience.svg",
         "navLinks": [
           { "label": "Home", "href": "../" },
-          { "label": "Diving", "href": "./diving.html" },
-          { "label": "Snorkel", "href": "./snorkel.html" },
-          { "label": "Boat trip", "href": "./boat.html" },
-          { "label": "Contact", "href": "./contact.html" }
+          { "label": "Diving", "href": "./diving" },
+          { "label": "Snorkel", "href": "./snorkel" },
+          { "label": "Boat trip", "href": "./boat" },
+          { "label": "Contact", "href": "./contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "loadingMessage": "Loading...",
         "socialLinks": [
           { "iconClass": "fab fa-instagram fa-2x", "href": "" },
@@ -664,11 +699,16 @@
         "logo": "../public/img/logo-ocean-experience.svg",
         "navLinks": [
           { "name": "Home", "url": "./index" },
-          { "name": "Diving", "url": "./diving.html" },
-          { "name": "Snorkel", "url": "./snorkel.html" },
-          { "name": "Boat trip", "url": "./boat.html" },
-          { "name": "Contact", "url": "./contact.html" }
+          { "name": "Diving", "url": "./diving" },
+          { "name": "Snorkel", "url": "./snorkel" },
+          { "name": "Boat trip", "url": "./boat" },
+          { "name": "Contact", "url": "./contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "overlays": {
           "loading": "Loading...",
           "message": ""
@@ -717,7 +757,8 @@
         "mainSection": {
           "title": "Ocean Experience",
           "subtitle": "Entreprise d'aventure aquatique",
-          "contactButton": "Contactez-nous"
+          "contactButton": "Contactez-nous",
+          "contactLink": "./contact"
         },
         "waves": [
           { "class": "body__main-div--one-div--one body__main-div-div wave-acceso-2" },
@@ -810,65 +851,61 @@
           "title": "Aventures en plongée",
           "subtitle": "Explorez les merveilles sous les vagues",
           "contactButton": "Contactez-nous",
-          "contactLink": "#"
+          "contactLink": "./contact"
         },
         "detailsSection": {
           "title": "Plongez dans l'extraordinaire",
           "description": "Rejoignez-nous pour des excursions de plongée de qualité premium qui offrent un voyage inoubliable pour découvrir les mystères des profondeurs marines.",
           "features": [
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-1.png",
               "imgAlt": "Guides experts",
               "title": "1. Guides et instructeurs experts",
               "description": "Nos guides enrichissent votre expérience avec des connaissances sur la vie marine et les écosystèmes."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-2.png",
               "imgAlt": "Expériences sur mesure",
               "title": "2. Expériences sur mesure",
               "description": "Nous personnalisons les voyages en fonction de vos préférences pour une aventure de plongée unique."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-3.png",
               "imgAlt": "Plongées au coucher du soleil",
               "title": "3. Plongées tranquilles au coucher du soleil",
               "description": "Profitez de plongées romantiques au coucher du soleil avec des vues imprenables et des eaux sereines."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-4.png",
               "imgAlt": "Expéditions sous-marines",
               "title": "4. Expéditions sous-marines passionnantes",
               "description": "Explorez une vie marine diversifiée et des spots sous-marins captivants."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-5.png",
               "imgAlt": "Équipement de haute qualité",
               "title": "5. Équipement de plongée de haute qualité",
               "description": "Nous fournissons un équipement de premier choix pour assurer votre sécurité et votre confort."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-6.png",
               "imgAlt": "Sécurité",
               "title": "6. La sécurité avant tout",
               "description": "Notre équipe priorise la sécurité avec une formation approfondie et une préparation aux urgences."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-7.png",
               "imgAlt": "Photographie",
               "title": "7. Capturez des moments inoubliables",
               "description": "Apportez votre appareil photo pour capturer le monde sous-marin fascinant."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-8.png",
               "imgAlt": "Conservation de l'environnement",
               "title": "8. Conservation de l'environnement",
               "description": "Nous pratiquons une plongée responsable pour préserver l'écosystème marin fragile."
             }
           ]
-        },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
         },
         "socialLinks": [
           { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
@@ -885,9 +922,9 @@
           "burgerMenuScript": "../src/scripts/burguerMenu.js",
           "gotoScript": "./utils/goto.js"
         }
-      },    
+      },
       "snorkel": {
-        "title": "Ocean Experience | Plongée en apnée",
+        "title": "Ocean Experience | Snorkeling",
         "lang": "fr",
         "cssPaths": {
           "styles": "../assets/public/css/styles.css",
@@ -901,73 +938,69 @@
         "navItems": [
           { "href": "./index", "text": "Accueil" },
           { "href": "./diving", "text": "Plongée" },
-          { "href": "./snorkel", "text": "Plongée en apnée" },
+          { "href": "./snorkel", "text": "Snorkeling" },
           { "href": "./boat", "text": "Excursion en bateau" },
           { "href": "./contact", "text": "Contact" }
         ],
         "snorkelSection": {
-          "title": "Aventures en plongée en apnée",
-          "subtitle": "Découvrez le monde marin vibrant",
+          "title": "Aventures de Snorkeling",
+          "subtitle": "Découvrez la Beauté Sous la Surface",
           "contactButton": "Contactez-nous",
-          "contactLink": "#"
+          "contactLink": "./contact"
         },
         "detailsSection": {
-          "title": "Plongez dans l'expérience de la plongée en apnée",
-          "description": "Embarquez pour un voyage inoubliable en plongée en apnée où vous rencontrerez des récifs coralliens colorés et une vie marine diversifiée.",
+          "title": "Explorez des Eaux Cristallines",
+          "description": "Embarquez pour une aventure inoubliable de snorkeling, explorant des récifs coralliens vibrants et une vie marine colorée.",
           "features": [
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Guides experts",
-              "title": "1. Guides et instructeurs experts",
-              "description": "Nos guides offrent des informations fascinantes sur la vie marine, rendant votre expérience de plongée en apnée enrichissante."
+              "imgSrc": "../assets/public/img/snorkel-card-1.png",
+              "imgAlt": "Guides professionnels",
+              "title": "1. Guides professionnels",
+              "description": "Nos guides experts assurent une expérience de snorkeling sécurisée et agréable."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Expériences personnalisées",
-              "title": "2. Voyages de plongée en apnée sur mesure",
-              "description": "Nous adaptons chaque voyage à vos préférences, garantissant une aventure de plongée en apnée parfaite pour vous."
+              "imgSrc": "../assets/public/img/snorkel-card-2.png",
+              "imgAlt": "Amusant pour toute la famille",
+              "title": "2. Amusant pour toute la famille",
+              "description": "Le snorkeling est une activité pour tous les âges, parfaite pour créer des souvenirs inoubliables."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Exploration sous-marine",
-              "title": "3. Superbes vues sous-marines",
-              "description": "Explorez les récifs coralliens vibrants et nagez avec des poissons exotiques dans des eaux cristallines."
+              "imgSrc": "../assets/public/img/snorkel-card-3.png",
+              "imgAlt": "Récifs vibrants",
+              "title": "3. Explorez des récifs vibrants",
+              "description": "Nagez parmi des formations coralliennes à couper le souffle remplies de vie marine."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Environnement détendu",
-              "title": "4. Eaux calmes et relaxantes",
-              "description": "Nos excursions de plongée en apnée vous emmènent dans des endroits paisibles, parfaits pour une expérience aquatique calme et sûre."
+              "imgSrc": "../assets/public/img/snorkel-card-4.png",
+              "imgAlt": "Équipement fourni",
+              "title": "4. Équipement de qualité fourni",
+              "description": "Nous fournissons un équipement de snorkeling haut de gamme pour votre confort et sécurité."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Équipement de qualité",
-              "title": "5. Équipement de plongée de qualité",
-              "description": "Nous fournissons des équipements de qualité pour une expérience de plongée en apnée confortable et sûre."
+              "imgSrc": "../assets/public/img/snorkel-card-5.png",
+              "imgAlt": "Sensibilisation environnementale",
+              "title": "5. Sensibilisation environnementale",
+              "description": "Apprenez à préserver l'océan grâce à des pratiques responsables."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Sécurité avant tout",
-              "title": "6. Sécurité avant tout",
-              "description": "Votre sécurité est notre priorité avec des guides entièrement formés et une supervision attentive."
+              "imgSrc": "../assets/public/img/snorkel-card-6.png",
+              "imgAlt": "Détente",
+              "title": "6. Détendez-vous et profitez",
+              "description": "Flottez dans des eaux sereines et immergez-vous dans la tranquillité de l'océan."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Photographie",
-              "title": "7. Capturez vos moments",
-              "description": "Apportez votre appareil photo pour capturer le magnifique monde sous-marin et partager vos souvenirs."
+              "imgSrc": "../assets/public/img/snorkel-card-7.png",
+              "imgAlt": "Moments de photographie",
+              "title": "7. Moments photographiques incroyables",
+              "description": "Capturez la beauté du monde sous-marin avec votre appareil photo."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Conservation de l'environnement",
-              "title": "8. Pratiques écologiques",
-              "description": "Nous suivons des pratiques écologiques pour protéger l'écosystème marin fragile."
+              "imgSrc": "../assets/public/img/snorkel-card-8.png",
+              "imgAlt": "Aventures mémorables",
+              "title": "8. Aventures mémorables",
+              "description": "Créez des histoires à partager en explorant l'écosystème marin captivant."
             }
           ]
-        },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
         },
         "socialLinks": [
           { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
@@ -984,83 +1017,100 @@
           "burgerMenuScript": "../src/scripts/burguerMenu.js",
           "gotoScript": "./utils/goto.js"
         }
-      }, 
+      },
       "boat": {
         "title": "Ocean Experience | Excursion en Bateau",
-        "logo": {
-          "src": "../assets/public/img/logo-ocean-experience.svg",
-          "alt": "Logo Ocean Experience"
+        "lang": "fr",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         },
-        "navLinks": [
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
           { "href": "./index", "text": "Accueil" },
           { "href": "./diving", "text": "Plongée" },
           { "href": "./snorkel", "text": "Snorkeling" },
           { "href": "./boat", "text": "Excursion en bateau" },
           { "href": "./contact", "text": "Contact" }
         ],
-        "mainSection": {
+        "boatSection": {
           "title": "Aventures en Bateau",
-          "subtitle": "Naviguez vers des Vues Inoubliables",
-          "cta": { "href": "#", "text": "Contactez-nous" }
+          "subtitle": "Embarquez pour des Voyages Inoubliables",
+          "contactButton": "Contactez-nous",
+          "contactLink": "./contact"
         },
-        "details": {
-          "title": "Embarquez pour un Voyage Maritime Inoubliable",
-          "description": "Découvrez les merveilles de la mer avec nos excursions en bateau exceptionnelles. Laissez-nous rendre votre voyage fluide et inoubliable.",
+        "detailsSection": {
+          "title": "Découvrez les Mers Ouvertes",
+          "description": "Partez pour une excursion en bateau inoubliable, explorez des côtes spectaculaires et des eaux cristallines tout en profitant du luxe et de l’aventure.",
           "features": [
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Capitaine Expert" },
-              "title": "1. Capitaine et Équipage Experts",
-              "description": "Expérimentés en navigation et en sécurité, notre équipage offre des connaissances enrichissantes pour garantir une expérience agréable."
+              "imgSrc": "../assets/public/img/boat-card-1.png",
+              "imgAlt": "Bateaux de Luxe",
+              "title": "1. Bateaux de Luxe",
+              "description": "Voyagez avec style et confort à bord de nos bateaux modernes et bien équipés."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Expériences Personnalisées" },
-              "title": "2. Expériences Personnalisées",
-              "description": "Des escapades sereines aux occasions spéciales, nous adaptons les excursions pour répondre à vos envies."
+              "imgSrc": "../assets/public/img/boat-card-2.png",
+              "imgAlt": "Vues Scéniques",
+              "title": "2. Vues Scéniques Côtières",
+              "description": "Capturez des panoramas époustouflants en naviguant le long des côtes immaculées."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Croisières Côtières" },
-              "title": "3. Croisières Côtières Scéniques",
-              "description": "Admirez les superbes vues des côtes tout en vous relaxant dans un cadre paisible."
+              "imgSrc": "../assets/public/img/boat-card-3.png",
+              "imgAlt": "Équipage Amical",
+              "title": "3. Équipage Amical et Expérimenté",
+              "description": "Notre équipage professionnel assure votre sécurité et rend votre excursion agréable."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Aventures Nautiques" },
-              "title": "4. Aventures Nautiques Palpitantes",
-              "description": "Explorez des criques cachées et des îles grâce à nos excursions passionnantes."
+              "imgSrc": "../assets/public/img/boat-card-4.png",
+              "imgAlt": "Croisières au Coucher de Soleil",
+              "title": "4. Croisières Romantiques au Coucher de Soleil",
+              "description": "Terminez votre journée par une excursion romantique sous les teintes dorées du soleil couchant."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Bateau Confortable" },
-              "title": "5. Bateau Confortable",
-              "description": "Naviguez confortablement sur notre bateau bien entretenu, équipé de toutes les commodités."
+              "imgSrc": "../assets/public/img/boat-card-5.png",
+              "imgAlt": "Activités Nautiques",
+              "title": "5. Activités Nautiques Exaltantes",
+              "description": "Profitez de la plongée libre, du paddle et d’autres activités nautiques pendant votre excursion."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Sécurité Avant Tout" },
-              "title": "6. Sécurité Avant Tout",
-              "description": "Votre sécurité est notre priorité, avec un équipage formé prêt à vous assister."
+              "imgSrc": "../assets/public/img/boat-card-6.png",
+              "imgAlt": "Charters Privés",
+              "title": "6. Charters Privés",
+              "description": "Personnalisez votre aventure avec un charter privé adapté à vos besoins."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Moments Mémorables" },
-              "title": "7. Capturez des Moments Mémorables",
-              "description": "Apportez votre appareil photo pour immortaliser les paysages et créer des souvenirs inoubliables."
+              "imgSrc": "../assets/public/img/boat-card-7.png",
+              "imgAlt": "Rencontres avec la Faune",
+              "title": "7. Rencontres avec la Faune",
+              "description": "Observez les dauphins, les tortues marines et d’autres espèces marines en chemin."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Responsabilité Environnementale" },
-              "title": "8. Responsabilité Environnementale",
-              "description": "Nos excursions en bateau mettent l'accent sur des pratiques écologiques pour préserver l'environnement marin."
+              "imgSrc": "../assets/public/img/boat-card-8.png",
+              "imgAlt": "Rafraîchissements à Bord",
+              "title": "8. Rafraîchissements à Bord",
+              "description": "Détendez-vous avec des collations et boissons offertes pendant votre voyage."
             }
           ]
         },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contactez-nous par e-mail ou suivez-nous sur les réseaux sociaux pour les mises à jour.",
+          "companyName": "Ocean Experience"
         },
-        "footer": {
-          "socialLinks": [
-            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
-            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
-            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
-          ],
-          "infoText": "Contactez-nous par email ou suivez-nous sur les réseaux sociaux pour des mises à jour.",
-          "copyright": "&copy; 2024 Ocean Experience. Tous droits réservés."
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
         }
       },
       "contact": {
@@ -1071,14 +1121,19 @@
           "serviceDescription": "../assets/public/css/service-description.css",
           "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "logoImg": "../assets/public/img/logo-ocean-experience.svg",
         "logoAlt": "Logo Ocean Experience",
         "navLinks": [
           { "href": "./index", "text": "Accueil" },
           { "href": "./diving", "text": "Plongée" },
-          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./snorkel", "text": "Snorkeling" },
           { "href": "./boat", "text": "Excursion en bateau" },
-          { "href": "./contact", "text": "Contact" }
+          { "href": "./contact", "text": "Contacto" }
         ],
         "hubspotForm": {
           "src": "//js.hsforms.net/forms/embed/v2.js",
@@ -1121,6 +1176,11 @@
         "logo": {
           "src": "../assets/public/img/logo-ocean-experience.svg",
           "alt": "Ocean Experience Logo"
+        },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
         },
         "navigation": [
           { "href": "./index", "label": "Home" },
@@ -1264,6 +1324,11 @@
           "img": "../assets/public/img/logo-ocean-experience.svg",
           "alt": "Ocean Experience Logo"
         },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "navigation": {
           "links": [
             { "href": "./index", "label": "Home" },
@@ -1299,11 +1364,16 @@
         "logoAlt": "Ocean Experience Logo",
         "navLinks": [
           { "href": "./index", "text": "Home" },
-          { "href": "./diving.html", "text": "Diving" },
-          { "href": "./snorkel.html", "text": "Snorkel" },
-          { "href": "./boat.html", "text": "Boat trip" },
-          { "href": "./contact.html", "text": "Contact" }
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "socialLinks": [
           { "href": "https://instagram.com", "icon": "fab fa-instagram fa-2x" },
           { "href": "https://tiktok.com", "icon": "fa-brands fa-tiktok" },
@@ -1331,11 +1401,16 @@
         "logoPath": "../public/img/logo-ocean-experience.svg",
         "navLinks": [
           { "label": "Home", "href": "../" },
-          { "label": "Diving", "href": "./diving.html" },
-          { "label": "Snorkel", "href": "./snorkel.html" },
-          { "label": "Boat trip", "href": "./boat.html" },
-          { "label": "Contact", "href": "./contact.html" }
+          { "label": "Diving", "href": "./diving" },
+          { "label": "Snorkel", "href": "./snorkel" },
+          { "label": "Boat trip", "href": "./boat" },
+          { "label": "Contact", "href": "./contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "loadingMessage": "Loading...",
         "socialLinks": [
           { "iconClass": "fab fa-instagram fa-2x", "href": "" },
@@ -1363,11 +1438,16 @@
         "logo": "../public/img/logo-ocean-experience.svg",
         "navLinks": [
           { "name": "Home", "url": "./index" },
-          { "name": "Diving", "url": "./diving.html" },
-          { "name": "Snorkel", "url": "./snorkel.html" },
-          { "name": "Boat trip", "url": "./boat.html" },
-          { "name": "Contact", "url": "./contact.html" }
+          { "name": "Diving", "url": "./diving" },
+          { "name": "Snorkel", "url": "./snorkel" },
+          { "name": "Boat trip", "url": "./boat" },
+          { "name": "Contact", "url": "./contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "overlays": {
           "loading": "Loading...",
           "message": ""
@@ -1416,7 +1496,8 @@
         "mainSection": {
           "title": "Ocean Experience",
           "subtitle": "Empresa de Aventura Acuática",
-          "contactButton": "Contáctanos"
+          "contactButton": "Contáctanos",
+          "contactLink": "./contact"
         },
         "waves": [
           { "class": "body__main-div--one-div--one body__main-div-div wave-acceso-2" },
@@ -1501,73 +1582,69 @@
         "navItems": [
           { "href": "./index", "text": "Inicio" },
           { "href": "./diving", "text": "Buceo" },
-          { "href": "./snorkel", "text": "Snorkel" },
-          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./snorkel", "text": "Esnórquel" },
+          { "href": "./boat", "text": "Paseo en barco" },
           { "href": "./contact", "text": "Contacto" }
         ],
         "divingSection": {
           "title": "Aventuras de buceo",
           "subtitle": "Explora las maravillas bajo las olas",
           "contactButton": "Contáctanos",
-          "contactLink": "#"
+          "contactLink": "./contact"
         },
         "detailsSection": {
           "title": "Sumérgete en lo extraordinario",
           "description": "Únete a nosotros en viajes de buceo premium que ofrecen una experiencia inolvidable para descubrir los misterios del fondo marino.",
           "features": [
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-1.png",
               "imgAlt": "Guías expertos",
               "title": "1. Guías e instructores expertos",
               "description": "Nuestros guías enriquecen tu experiencia con conocimientos sobre la vida marina y los ecosistemas."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-2.png",
               "imgAlt": "Experiencias a medida",
               "title": "2. Experiencias personalizadas",
               "description": "Personalizamos los viajes según tus preferencias para una aventura de buceo única."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-3.png",
               "imgAlt": "Buceos al atardecer",
               "title": "3. Buceos tranquilos al atardecer",
               "description": "Disfruta de buceos románticos al atardecer con vistas impresionantes y aguas tranquilas."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-4.png",
               "imgAlt": "Expediciones subacuáticas",
               "title": "4. Emocionantes expediciones subacuáticas",
               "description": "Explora una vida marina diversa y fascinantes lugares submarinos."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-5.png",
               "imgAlt": "Equipo de alta calidad",
               "title": "5. Equipo de buceo de alta calidad",
               "description": "Proveemos equipos de primera clase para garantizar tu seguridad y comodidad."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-6.png",
               "imgAlt": "Seguridad",
               "title": "6. La seguridad es lo primero",
               "description": "Nuestro equipo prioriza la seguridad con entrenamiento extenso y preparación ante emergencias."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-7.png",
               "imgAlt": "Fotografía",
               "title": "7. Captura momentos inolvidables",
               "description": "Trae tu cámara para capturar el fascinante mundo submarino."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgSrc": "../assets/public/img/scuba-card-8.png",
               "imgAlt": "Conservación ambiental",
               "title": "8. Conservación ambiental",
               "description": "Practicamos un buceo responsable para preservar el frágil ecosistema marino."
             }
           ]
-        },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
         },
         "socialLinks": [
           { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
@@ -1600,73 +1677,69 @@
         "navItems": [
           { "href": "./index", "text": "Inicio" },
           { "href": "./diving", "text": "Buceo" },
-          { "href": "./snorkel", "text": "Snorkel" },
-          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./snorkel", "text": "Esnórquel" },
+          { "href": "./boat", "text": "Paseo en barco" },
           { "href": "./contact", "text": "Contacto" }
         ],
         "snorkelSection": {
-          "title": "Aventuras de snorkel",
-          "subtitle": "Descubre el vibrante mundo marino",
+          "title": "Aventuras de Snorkel",
+          "subtitle": "Descubre la Belleza Bajo la Superficie",
           "contactButton": "Contáctanos",
-          "contactLink": "#"
+          "contactLink": "./contact"
         },
         "detailsSection": {
-          "title": "Sumérgete en la experiencia de snorkel",
-          "description": "Embárcate en un inolvidable viaje de snorkel donde encontrarás coloridos arrecifes de coral y diversa vida marina.",
+          "title": "Explora Aguas Cristalinas",
+          "description": "Embárcate en una aventura inolvidable de snorkel, explorando vibrantes arrecifes de coral y colorida vida marina.",
           "features": [
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Guías expertos",
-              "title": "1. Guías e instructores expertos",
-              "description": "Nuestros guías brindan fascinantes conocimientos sobre la vida marina, haciendo que tu experiencia de snorkel sea enriquecedora."
+              "imgSrc": "../assets/public/img/snorkel-card-1.png",
+              "imgAlt": "Guías Profesionales",
+              "title": "1. Guías Profesionales",
+              "description": "Nuestros expertos garantizan una experiencia de snorkel segura y divertida."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Experiencias personalizadas",
-              "title": "2. Viajes de snorkel personalizables",
-              "description": "Adaptamos cada viaje a tus preferencias, asegurando una aventura perfecta de snorkel para ti."
+              "imgSrc": "../assets/public/img/snorkel-card-2.png",
+              "imgAlt": "Diversión Familiar",
+              "title": "2. Diversión Familiar",
+              "description": "El snorkel es una actividad para todas las edades, ideal para crear recuerdos inolvidables."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Exploración submarina",
-              "title": "3. Impresionantes vistas submarinas",
-              "description": "Explora los vibrantes arrecifes de coral y nada con peces exóticos en aguas cristalinas."
+              "imgSrc": "../assets/public/img/snorkel-card-3.png",
+              "imgAlt": "Arrecifes Vibrantes",
+              "title": "3. Explora Arrecifes Vibrantes",
+              "description": "Nada entre impresionantes formaciones de coral llenas de vida marina."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Ambiente relajado",
-              "title": "4. Aguas tranquilas y relajantes",
-              "description": "Nuestros viajes de snorkel te llevan a lugares pacíficos, perfectos para una experiencia acuática tranquila y segura."
+              "imgSrc": "../assets/public/img/snorkel-card-4.png",
+              "imgAlt": "Equipo Proporcionado",
+              "title": "4. Equipo de Alta Calidad",
+              "description": "Proveemos equipo de snorkel de primera calidad para tu comodidad y seguridad."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Equipo de calidad",
-              "title": "5. Equipo de snorkel de calidad",
-              "description": "Proporcionamos equipos de alta calidad para una experiencia de snorkel cómoda y segura."
+              "imgSrc": "../assets/public/img/snorkel-card-5.png",
+              "imgAlt": "Conciencia Ambiental",
+              "title": "5. Conciencia Ambiental",
+              "description": "Aprende sobre la conservación del océano y prácticas responsables de snorkel."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Seguridad primero",
-              "title": "6. Seguridad ante todo",
-              "description": "Tu seguridad es nuestra prioridad con guías totalmente capacitados y supervisión cuidadosa."
+              "imgSrc": "../assets/public/img/snorkel-card-6.png",
+              "imgAlt": "Relajación",
+              "title": "6. Relájate y Disfruta",
+              "description": "Flota en aguas tranquilas y sumérgete en la serenidad del océano."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Fotografía",
-              "title": "7. Captura tus momentos",
-              "description": "Trae tu cámara para capturar el hermoso mundo submarino y compartir tus recuerdos."
+              "imgSrc": "../assets/public/img/snorkel-card-7.png",
+              "imgAlt": "Momentos Fotográficos",
+              "title": "7. Momentos Fotográficos Increíbles",
+              "description": "Captura la belleza del mundo submarino con tu cámara."
             },
             {
-              "imgSrc": "https://via.placeholder.com/300x200",
-              "imgAlt": "Conservación ambiental",
-              "title": "8. Prácticas ecológicas",
-              "description": "Seguimos prácticas ecológicas para proteger el frágil ecosistema marino."
+              "imgSrc": "../assets/public/img/snorkel-card-8.png",
+              "imgAlt": "Aventuras Memorables",
+              "title": "8. Aventuras Memorables",
+              "description": "Crea historias inolvidables mientras exploras el cautivador ecosistema marino."
             }
           ]
-        },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
         },
         "socialLinks": [
           { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
@@ -1685,81 +1758,98 @@
         }
       },
       "boat": {
-        "title": "Ocean Experience | Excursión en Barco",
-        "logo": {
-          "src": "../assets/public/img/logo-ocean-experience.svg",
-          "alt": "Logotipo de Ocean Experience"
+        "title": "Ocean Experience | Paseo en Barco",
+        "lang": "es",
+        "cssPaths": {
+          "styles": "../assets/public/css/styles.css",
+          "waves": "../assets/public/css/waves.css",
+          "serviceDescription": "../assets/public/css/service-description.css",
+          "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         },
-        "navLinks": [
+        "imgPaths": {
+          "logo": "../assets/public/img/logo-ocean-experience.svg"
+        },
+        "navItems": [
           { "href": "./index", "text": "Inicio" },
           { "href": "./diving", "text": "Buceo" },
-          { "href": "./snorkel", "text": "Snorkel" },
-          { "href": "./boat", "text": "Excursión en barco" },
+          { "href": "./snorkel", "text": "Esnórquel" },
+          { "href": "./boat", "text": "Paseo en barco" },
           { "href": "./contact", "text": "Contacto" }
         ],
-        "mainSection": {
+        "boatSection": {
           "title": "Aventuras en Barco",
-          "subtitle": "Navega hacia Vistas Inolvidables",
-          "cta": { "href": "#", "text": "Contáctanos" }
+          "subtitle": "Navega hacia Viajes Inolvidables",
+          "contactButton": "Contáctanos",
+          "contactLink": "./contact"
         },
-        "details": {
-          "title": "Embarca en un Viaje Marítimo Inolvidable",
-          "description": "Descubre las maravillas del mar con nuestras excepcionales excursiones en barco. Permítenos hacer que tu viaje sea fluido e inolvidable.",
+        "detailsSection": {
+          "title": "Descubre los Mares Abiertos",
+          "description": "Disfruta de un paseo en barco inolvidable, explorando costas impresionantes y aguas cristalinas mientras gozas de lujo y aventura.",
           "features": [
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Capitán Experto" },
-              "title": "1. Capitán y Tripulación Expertos",
-              "description": "Con experiencia en navegación y seguridad, nuestra tripulación ofrece conocimientos enriquecedores para una experiencia agradable."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Barcos de Lujo",
+              "title": "1. Barcos de Lujo",
+              "description": "Viaja con estilo y comodidad en nuestros modernos y bien equipados barcos."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Experiencias Personalizadas" },
-              "title": "2. Experiencias Personalizadas",
-              "description": "Desde escapadas tranquilas hasta ocasiones especiales, adaptamos las excursiones para satisfacer tus deseos."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Vistas Escénicas",
+              "title": "2. Vistas Escénicas",
+              "description": "Captura paisajes impresionantes mientras navegas por costas prístinas."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Cruceros Costeros" },
-              "title": "3. Cruceros Costeros Escénicos",
-              "description": "Disfruta de impresionantes vistas de las costas mientras te relajas en un entorno tranquilo."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Tripulación Amigable",
+              "title": "3. Tripulación Amigable y Profesional",
+              "description": "Nuestra tripulación asegura tu seguridad y hace que tu paseo sea placentero."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Aventuras Náuticas" },
-              "title": "4. Aventuras Náuticas Emocionantes",
-              "description": "Explora calas escondidas e islas en nuestras emocionantes excursiones."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Paseos al Atardecer",
+              "title": "4. Paseos Románticos al Atardecer",
+              "description": "Termina tu día con un paseo romántico bajo los tonos dorados del atardecer."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Barco Cómodo" },
-              "title": "5. Barco Cómodo",
-              "description": "Navega con comodidad en nuestro barco bien mantenido, equipado con todas las comodidades."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Actividades Acuáticas",
+              "title": "5. Actividades Acuáticas",
+              "description": "Disfruta del snorkel, paddleboarding y otras actividades acuáticas durante tu paseo."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Seguridad Primero" },
-              "title": "6. Seguridad Primero",
-              "description": "Tu seguridad es nuestra prioridad, con una tripulación capacitada lista para asistirte."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Charters Privados",
+              "title": "6. Charters Privados",
+              "description": "Personaliza tu aventura con un charter privado diseñado a tu medida."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Momentos Memorables" },
-              "title": "7. Captura Momentos Memorables",
-              "description": "Trae tu cámara para capturar paisajes y crear recuerdos inolvidables."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Encuentros con Fauna",
+              "title": "7. Encuentros con Fauna",
+              "description": "Observa delfines, tortugas marinas y otros animales marinos en el camino."
             },
             {
-              "img": { "src": "https://via.placeholder.com/300x200", "alt": "Responsabilidad Ambiental" },
-              "title": "8. Responsabilidad Ambiental",
-              "description": "Nuestras excursiones en barco enfatizan prácticas ecológicas para preservar el entorno marino."
+              "imgSrc": "https://via.placeholder.com/300x200",
+              "imgAlt": "Refrescos a Bordo",
+              "title": "8. Refrescos a Bordo",
+              "description": "Relájate con bocadillos y bebidas de cortesía durante tu viaje."
             }
           ]
         },
-        "hubspot": {
-          "portalId": "47277250",
-          "formId": "e4077f4d-0237-4944-afeb-def7a0f5e977"
+        "socialLinks": [
+          { "url": "https://www.instagram.com/eduardo.hazo/", "iconClass": "fab fa-instagram-square" },
+          { "url": "https://www.linkedin.com/in/eduardogonzalezjasso/", "iconClass": "fab fa-linkedin" },
+          { "url": "mailto:your-email@example.com", "iconClass": "fas fa-envelope" }
+        ],
+        "footerInfo": {
+          "text": "Contáctanos por correo o síguenos en redes sociales para actualizaciones.",
+          "companyName": "Ocean Experience"
         },
-        "footer": {
-          "socialLinks": [
-            { "href": "https://www.instagram.com/eduardo.hazo/", "icon": "fab fa-instagram-square" },
-            { "href": "https://www.linkedin.com/in/eduardogonzalezjasso/", "icon": "fab fa-linkedin" },
-            { "href": "mailto:your-email@example.com", "icon": "fas fa-envelope" }
-          ],
-          "infoText": "Contáctanos por correo electrónico o síguenos en redes sociales para actualizaciones.",
-          "copyright": "&copy; 2024 Ocean Experience. Todos los derechos reservados."
+        "currentYear": "2024",
+        "scriptPaths": {
+          "mainScript": "../src/scripts/script.js",
+          "burgerMenuScript": "../src/scripts/burguerMenu.js",
+          "gotoScript": "./utils/goto.js"
         }
       },
       "contact": {
@@ -1770,14 +1860,19 @@
           "serviceDescription": "../assets/public/css/service-description.css",
           "fontAwesome": "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
         },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "logoImg": "../assets/public/img/logo-ocean-experience.svg",
         "logoAlt": "Logotipo de Ocean Experience",
         "navLinks": [
           { "href": "./index", "text": "Inicio" },
           { "href": "./diving", "text": "Buceo" },
           { "href": "./snorkel", "text": "Esnórquel" },
-          { "href": "./boat", "text": "Excursión en barco" },
-          { "href": "./contact", "text": "Contáctanos" }
+          { "href": "./boat", "text": "Paseo en barco" },
+          { "href": "./contact", "text": "Contacto" }
         ],
         "hubspotForm": {
           "src": "//js.hsforms.net/forms/embed/v2.js",
@@ -1820,6 +1915,11 @@
         "logo": {
           "src": "../assets/public/img/logo-ocean-experience.svg",
           "alt": "Ocean Experience Logo"
+        },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
         },
         "navigation": [
           { "href": "./index", "label": "Home" },
@@ -1963,6 +2063,11 @@
           "img": "../assets/public/img/logo-ocean-experience.svg",
           "alt": "Ocean Experience Logo"
         },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "navigation": {
           "links": [
             { "href": "./index", "label": "Home" },
@@ -1998,11 +2103,16 @@
         "logoAlt": "Ocean Experience Logo",
         "navLinks": [
           { "href": "./index", "text": "Home" },
-          { "href": "./diving.html", "text": "Diving" },
-          { "href": "./snorkel.html", "text": "Snorkel" },
-          { "href": "./boat.html", "text": "Boat trip" },
-          { "href": "./contact.html", "text": "Contact" }
+          { "href": "./diving", "text": "Diving" },
+          { "href": "./snorkel", "text": "Snorkel" },
+          { "href": "./boat", "text": "Boat trip" },
+          { "href": "./contact", "text": "Contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "socialLinks": [
           { "href": "https://instagram.com", "icon": "fab fa-instagram fa-2x" },
           { "href": "https://tiktok.com", "icon": "fa-brands fa-tiktok" },
@@ -2030,11 +2140,16 @@
         "logoPath": "../public/img/logo-ocean-experience.svg",
         "navLinks": [
           { "label": "Home", "href": "../" },
-          { "label": "Diving", "href": "./diving.html" },
-          { "label": "Snorkel", "href": "./snorkel.html" },
-          { "label": "Boat trip", "href": "./boat.html" },
-          { "label": "Contact", "href": "./contact.html" }
+          { "label": "Diving", "href": "./diving" },
+          { "label": "Snorkel", "href": "./snorkel" },
+          { "label": "Boat trip", "href": "./boat" },
+          { "label": "Contact", "href": "./contact" }
         ],
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
+        },
         "loadingMessage": "Loading...",
         "socialLinks": [
           { "iconClass": "fab fa-instagram fa-2x", "href": "" },
@@ -2062,14 +2177,19 @@
         "logo": "../public/img/logo-ocean-experience.svg",
         "navLinks": [
           { "name": "Home", "url": "./index" },
-          { "name": "Diving", "url": "./diving.html" },
-          { "name": "Snorkel", "url": "./snorkel.html" },
-          { "name": "Boat trip", "url": "./boat.html" },
-          { "name": "Contact", "url": "./contact.html" }
+          { "name": "Diving", "url": "./diving" },
+          { "name": "Snorkel", "url": "./snorkel" },
+          { "name": "Boat trip", "url": "./boat" },
+          { "name": "Contact", "url": "./contact" }
         ],
         "overlays": {
           "loading": "Loading...",
           "message": ""
+        },
+        "langUrls": {
+          "en": "http://127.0.0.1:5500/frontend/en/",
+          "es": "http://127.0.0.1:5500/frontend/es/",
+          "fr": "http://127.0.0.1:5500/frontend/fr/"
         },
         "socialLinks": [
           { "id": "one", "url": "", "iconClass": "fab fa-instagram fa-2x" },
